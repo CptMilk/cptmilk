@@ -19,6 +19,7 @@ permalink: /
 .page-title {
   animation: rainbow 5s infinite; /* Change 5s to adjust speed */
   text-align: center; /* Center the text */
+  cursor: pointer; /* Change cursor on hover */
 }
 
 .scroll-text {
@@ -38,15 +39,18 @@ permalink: /
 }
 </style>
 
-<h1 class="page-title">Go Kitty Go!</h1>
+<audio id="kittyAudio" src="/sounds/kitty.mp3"></audio> <!-- Change the path to your kitty.mp3 file -->
+
+<h1 class="page-title" onmouseover="playKittySound()">Go Kitty Go!</h1>
 
 <div class="scroll-text">
-  <span class="rainbow-text">Go kitty, go kitty
-Go kitty, go, and just
-Ride kitty, ride kitty
-Ride kitty, roll
-Go kitty, go kitty
-Go kitty, go, and just
-Ride kitty, ride kitty
-Ride kitty, roll </span>
+  <span class="rainbow-text">Go kitty, go kitty Go kitty, go, and just Ride kitty, ride kitty Ride kitty, roll Go, 
+    go, go kitty, go, just Go, go, go kitty, go, just Go, go, go kitty, go, just Go, go, go </span>
 </div>
+
+<script>
+function playKittySound() {
+  var audio = document.getElementById("kittyAudio");
+  audio.play();
+}
+</script>
