@@ -1,7 +1,7 @@
 ---
 name: Maple County
 tools: [Main Game]
-image: /image/image.png
+image: /image/headCRP.png
 description: My work for the game Project Flight
 ---
 
