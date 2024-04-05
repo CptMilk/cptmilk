@@ -1,7 +1,7 @@
 ---
 name: Project Flight
 tools: [Airlines]
-image: image/PORT3.png
+image: https://prnt.sc/xkCq8iDWlp5d
 description: My work for the game Project Flight
 ---
 
