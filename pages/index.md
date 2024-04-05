@@ -3,6 +3,31 @@ layout: default
 permalink: /
 ---
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website</title>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var attribution = document.getElementById("attribution");
+            if (attribution) {
+                attribution.style.display = "none";
+            }
+        });
+    </script>
+</head>
+<body>
+
+<small id="attribution">
+    theme <a href="https://github.com/YoussefRaafatNasry/portfolYOU">portfolYOU</a>
+</small>
+
+</body>
+</html>
+
+
 <link rel="shortcut icon" type="image/x-icon" href="{{ "/image/favicon.ico" | prepend: site.baseurl }}" >
 {% include landing.html %}
 
@@ -55,6 +80,5 @@ function playKittySound() {
 }
 </script>
 
-<!--Add the following script at the bottom of the web page (before </body></html>)-->
 <script type="text/javascript">function add_chatinline(){var hccid=76426200;var nt=document.createElement("script");nt.async=true;nt.src="https://mylivechat.com/chatinline.aspx?hccid="+hccid;var ct=document.getElementsByTagName("script")[0];ct.parentNode.insertBefore(nt,ct);}
 add_chatinline();</script>
