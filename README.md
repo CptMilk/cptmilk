@@ -1,4 +1,5 @@
-### Hi there 👋
+### CptMilks Portfolio
 
-beep boop
-test stuff
+Cool beans!
+
+https://prnt.sc/xkCq8iDWlp5d
