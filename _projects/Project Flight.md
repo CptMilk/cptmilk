@@ -15,3 +15,12 @@ description: My work for the game Project Flight
 <img src="/image/nice7.png" width="600"/>
 <img src="/image/nice8.png" width="600"/>
 <img src="/image/nice2.png" width="600"/>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    var attribution = document.getElementById("attribution");
+    if (attribution) {
+        attribution.style.display = "none";
+    }
+});    
+</script>
