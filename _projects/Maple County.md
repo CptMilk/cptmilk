@@ -13,3 +13,13 @@ description: My work for Maple County, CRP
 <img src="/images/mc/mc4.png" width="600"/>
 <img src="/images/mc/mc5.png" width="600"/>
 <img src="/images/mc/mc6.png" width="600"/>
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    var attribution = document.getElementById("attribution");
+    if (attribution) {
+        attribution.style.display = "none";
+    }
+});    
+</script>
