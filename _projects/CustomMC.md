@@ -15,3 +15,12 @@ description: Commissioned and Misc Work
 <img src="/images/mcustom/custom6.png" width="600"/>
 <img src="/images/mcustom/custom7.png" width="600"/>
 <img src="/images/mcustom/custom8.png" width="600"/>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    var attribution = document.getElementById("attribution");
+    if (attribution) {
+        attribution.style.display = "none";
+    }
+});    
+</script>
