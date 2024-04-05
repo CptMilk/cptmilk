@@ -31,12 +31,27 @@ permalink: /404.html
   <!-- Animate CSS CDN -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css">
 
-  <!-- Custom CSS -->
+   <!-- Custom CSS -->
   <link rel="stylesheet" href="/assets/css/style.css">
   <style>
-    /* Additional styling for the gif placement */
     .gif-container {
-      margin-bottom: 20px; /* Adjust margin as needed */
+      margin-bottom: 20px;
+    }
+
+    /* Define rainbow animation */
+    @keyframes rainbow {
+      0% { color: red; }
+      16.666% { color: orange; }
+      33.333% { color: yellow; }
+      50% { color: green; }
+      66.666% { color: blue; }
+      83.333% { color: indigo; }
+      100% { color: violet; }
+    }
+
+    /* Apply rainbow animation to the h3 element */
+    h3 {
+      animation: rainbow 4s infinite; /* Adjust animation duration as needed */
     }
   </style>
 </head>
