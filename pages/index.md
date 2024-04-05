@@ -17,8 +17,27 @@ permalink: /
 }
 
 .page-title {
-  animation: rainbow 5s infinite; /* Change 5s to adjust speed */
+  animation: rainbow 5s infinite;
+  text-align: center;
+}
+
+.scroll-text {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: scroll 10s linear infinite;
+}
+
+@keyframes scroll {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
 }
 </style>
 
-<h1 class="page-title">Go Kitty Go</h1>
+<h1 class="page-title">Go Kitty Go!</h1>
+
+<div class="scroll-text">
+  <span class="rainbow-text">Go Kitty Go! Kitty Go! Kitty Go! And just ride kitty ride kitty ride kitty Go!</span>
+</div>
