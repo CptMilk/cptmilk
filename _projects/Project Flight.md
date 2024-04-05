@@ -1,7 +1,7 @@
 ---
 name: Project Flight
 tools: [Airlines]
-image: /image/image.png
+image: /image/headPF.png
 description: My work for the game Project Flight
 ---
 
