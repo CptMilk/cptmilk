@@ -2,4 +2,4 @@
 
 Cool beans!
 
-![image](https://prnt.sc/xkCq8iDWlp5d)
+img src="https://prnt.sc/xkCq8iDWlp5d" alt="alt text" width="200"/>
