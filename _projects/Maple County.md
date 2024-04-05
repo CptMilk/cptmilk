@@ -2,7 +2,7 @@
 name: Maple County
 tools: [Main Game]
 image: /image/headCRP.png
-description: My work for the game Project Flight
+description: My work for Maple County, CRP
 ---
 
 # Official Maple County Liveries
