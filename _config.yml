@@ -1,11 +1,11 @@
 ### Site Settings ###
-site_favicon        : image/favicon.ico
 title               : CptMilks Portfolio
 description         : >-
                       Heya, Im CptMilk, or just milk. I am a livery designer (professional png maker).
                       if it has a UV Map I can make a livery for it. This is my portfolio
 baseurl             : ""                    
 remote_theme        : YoussefRaafatNasry/portfolYOU
+site_favicon        : image/favicon.ico
 open_new_tab        : false                             # Opens external URLs in new tab (works for posts, projects and navbar only)
 
 
