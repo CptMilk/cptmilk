@@ -2,4 +2,4 @@
 
 Cool beans!
 
-https://prnt.sc/xkCq8iDWlp5d
+![preview](https://prnt.sc/xkCq8iDWlp5d)
