@@ -21,3 +21,12 @@ description: Some liveries I made for FiveM servers
 <img src="/images/5m/police3.png" width="600"/>
 <img src="/images/5m/police4.png" width="600"/>
 <img src="/images/5m/police6.png" width="600"/>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    var attribution = document.getElementById("attribution");
+    if (attribution) {
+        attribution.style.display = "none";
+    }
+});    
+</script>
