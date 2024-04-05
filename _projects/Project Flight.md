@@ -7,11 +7,11 @@ description: My work for the game Project Flight
 
 # Project Flight Liveries
 
-![preview](https://prnt.sc/FSbOuCcG88TJ)
-![preview](https://prnt.sc/G55HR9QybgdT)
-![preview](https://prnt.sc/SMWafiu09WYh)
-![preview](https://prnt.sc/wqVuNzxPMjPM)
-![preview](https://prnt.sc/rQA1rws_WRbR)
-![preview](https://prnt.sc/ir6bBEMY1H_y)
-![preview](https://prnt.sc/Lw6GNO2jzvJz)
-![preview](https://prnt.sc/mVE0JqBUHF2U)
+<img src="image/nice1.png" width="600"/>
+<img src="image/nice3.png" width="600"/>
+<img src="image/nice4.png" width="600"/>
+<img src="image/nice5.png" width="600"/>
+<img src="image/nice6.png" width="600"/>
+<img src="image/nice7.png" width="600"/>
+<img src="image/nice8.png" width="600"/>
+<img src="image/nice2.png" width="600"/>
