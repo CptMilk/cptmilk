@@ -11,6 +11,11 @@ dribbble:
   icon  : fab fa-dribbble
   color : 444444
 
+discord:
+  url   : https://discord.com/
+  icon  : fab fa-discord
+  color : 1da1f2
+
 email:
   url   : "mailto:"
   icon  : fas fa-envelope
