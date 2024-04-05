@@ -18,3 +18,5 @@ I'm a livery designer (professional png maker). I pride myself in being able to 
 <div class="row">
 {% include about/timeline.html %}
 </div>
+
+<link rel="shortcut icon" type="image/x-icon" href="{{ "/image/favicon.ico" | prepend: site.baseurl }}" >
