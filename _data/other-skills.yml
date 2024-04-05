@@ -5,7 +5,3 @@
 - name: Moderation experience
   percentage: 90
   color: info
-
-- name: Being a cat
-  percentage: 80
-  color: success
