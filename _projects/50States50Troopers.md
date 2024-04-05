@@ -1,7 +1,7 @@
 ---
 name: All 50 State Troopers
 tools: [NoLife]
-image: /image/image.png
+image: /image/head50.png
 description: Biggest project I've ever done
 ---
 
