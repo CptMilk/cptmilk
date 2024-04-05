@@ -1,7 +1,11 @@
-- name: Adobe Photoshop
-  percentage: 95
-  color: info
+- name: Paint(dot)net
+  percentage: 99
+  color: danger
 
-- name: Adobe Illustrator
+- name: Moderation experience
   percentage: 90
+  color: success
+
+- name: Being a cat
+  percentage: 80
   color: success
