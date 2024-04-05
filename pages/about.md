@@ -7,12 +7,12 @@ weight: 3
 
 # **About Me**
 
-Hi I am **{{ site.author.name }}** :wave:,<br>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Heya! Im CptMilk, or just milk. :wave:,<br>
+I'm a livery designer (professional png maker). I pride myself in being able to make the best liveries humanly possible at the fastest speed humanly possible. I have loads of experience
+(4+ Years)! I can safely say that millions of people have seen my work and probably didn't know it was me. I really like making liveries, and can make them very well.
 
 <div class="row">
-{% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}
-{% include about/skills.html title="Other Skills" source=site.data.other-skills %}
+{% include about/skills.html title="Skills" source=site.data.other-skills %}
 </div>
 
 <div class="row">
