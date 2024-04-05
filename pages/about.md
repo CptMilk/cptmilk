@@ -20,4 +20,13 @@ I'm a livery designer (professional png maker). I pride myself in being able to 
 {% include about/timeline.html %}
 </div>
 
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    var attribution = document.getElementById("attribution");
+    if (attribution) {
+        attribution.style.display = "none";
+    }
+});    
+</script>
+
 <link rel="shortcut icon" type="image/x-icon" href="{{ "/image/favicon.ico" | prepend: site.baseurl }}" >
