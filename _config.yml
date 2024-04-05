@@ -1,8 +1,9 @@
 ### Site Settings ###
 title               : CptMilks Portfolio
 description         : >-
-                      Professional PNG maker
-baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
+                      Heya, Im CptMilk, or just milk. I am a livery designer (professional png maker)
+                      if it has a UV Map I can make a livery for it. This is my portfolio
+baseurl             : ""                    
 remote_theme        : YoussefRaafatNasry/portfolYOU
 open_new_tab        : false                             # Opens external URLs in new tab (works for posts, projects and navbar only)
 
@@ -23,7 +24,7 @@ nav_exclude:                                            # The following paths ar
 ### Author Info ###
 author:
   name              : CptMilk
-  image             : https://i.imgur.com/uyDNQnn.jpg
+  image             : https://imgur.com/a/Kf149Dx
 #  behance           : your_username
 # dribbble          : your_username
   email             : support@cptmilk.xyz
