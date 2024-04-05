@@ -5,5 +5,14 @@ permalink: /my-work/
 weight: 1
 ---
 
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    var attribution = document.getElementById("attribution");
+    if (attribution) {
+        attribution.style.display = "none";
+    }
+});    
+</script>
+
 <link rel="shortcut icon" type="image/x-icon" href="{{ "/image/favicon.ico" | prepend: site.baseurl }}" >
 {% include projects/index.html %}
