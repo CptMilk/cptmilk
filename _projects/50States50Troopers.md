@@ -57,3 +57,12 @@ description: Biggest project I've ever done
 <img src="/images/50s/t48.png" width="600"/>
 <img src="/images/50s/t49.png" width="600"/>
 <img src="/images/50s/t50.png" width="600"/>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    var attribution = document.getElementById("attribution");
+    if (attribution) {
+        attribution.style.display = "none";
+    }
+});    
+</script>
