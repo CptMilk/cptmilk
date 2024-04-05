@@ -2,4 +2,4 @@
 
 Cool beans!
 
-<img src="image/image.png" width="200"/>
+<img src="image/image.png" width="600"/>
