@@ -1,0 +1,8 @@
+.elementor-15 .elementor-element.elementor-element-05c18d9 > .elementor-widget-wrap > .elementor-widget:not(.elementor-widget__width-auto):not(.elementor-widget__width-initial):not(:last-child):not(.elementor-absolute){margin-bottom:0px;}.elementor-15 .elementor-element.elementor-element-f6aa531{--spacer-size:50px;}.elementor-15 .elementor-element.elementor-element-830c4e1 > .elementor-container{max-width:1154px;}.elementor-15 .elementor-element.elementor-element-3b1d0e0 .subtitle-top .subtitle{margin-bottom:15px;}.elementor-15 .elementor-element.elementor-element-3b1d0e0 .subtitle-bottom .subtitle{margin-top:15px;}.elementor-15 .elementor-element.elementor-element-e19b084{--image-transition-duration:800ms;--content-text-align:center;--content-padding:50px;--content-transition-duration:800ms;--content-transition-delay:800ms;}.elementor-15 .elementor-element.elementor-element-d2b3aef{--spacer-size:50px;}.elementor-15 .elementor-element.elementor-element-7d390e8 .subtitle-top .subtitle{margin-bottom:15px;}.elementor-15 .elementor-element.elementor-element-7d390e8 .subtitle-bottom .subtitle{margin-top:15px;}@media(min-width:768px){.elementor-15 .elementor-element.elementor-element-05c18d9{width:100%;}.elementor-15 .elementor-element.elementor-element-9bc1a44{width:100%;}}/* Start custom CSS for gallery, class: .elementor-element-e19b084 */.e-gallery-image {
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+}
+
+.e-gallery-item {
+    padding: 30px !important;
+}/* End custom CSS */
