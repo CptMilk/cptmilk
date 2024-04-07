@@ -41,7 +41,7 @@ permalink: /
 
 <audio id="kittyAudio" src="/sounds/kitty.mp3"></audio> <!-- Change the path to your kitty.mp3 file -->
 
-<h1 class="page-title" onclick="playKittySound()">Go Kitty Go!</h1>
+<h1 class="page-title">Go Kitty Go!</h1>
 
 <div class="scroll-text">
   <span class="rainbow-text">Go kitty, go kitty Go kitty, go, and just Ride kitty, ride kitty Ride kitty, roll Go, 
@@ -49,10 +49,10 @@ permalink: /
 </div>
 
 <script>
-function playKittySound() {
-  var audio = document.getElementById("kittyAudio");
-  audio.play();
-}
+  document.querySelector('.page-title').addEventListener('click', function() {
+    var audio = document.getElementById("kittyAudio");
+    audio.play();
+  });
 
 document.addEventListener("DOMContentLoaded", function() {
     var attribution = document.getElementById("attribution");
