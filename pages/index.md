@@ -56,7 +56,11 @@ permalink: /
   opacity: 0;
   pointer-events: none;
   background: linear-gradient(to right, red, orange, yellow, green, blue, violet);
-  animation: overlay-animation 0.2174s infinite alternate; /* 60s / 138 = 0.2174s (approximately) */
+  animation: none; /* No animation initially */
+}
+
+.overlay.active {
+  animation: overlay-animation 2s infinite alternate;
 }
 
 @keyframes overlay-animation {
@@ -96,8 +100,8 @@ permalink: /
     overlay.style.pointerEvents = "auto"; // Enable pointer events to allow clicking
 
     var overlay = document.querySelector('.overlay');
+    overlay.classList.add('active'); // Add 'active' class to show the overlay
     overlay.style.pointerEvents = "auto"; // Enable pointer events to allow clicking
-    overlay.style.opacity = "0.5"; // Show the overlay
   });
 
   document.addEventListener("DOMContentLoaded", function() {
