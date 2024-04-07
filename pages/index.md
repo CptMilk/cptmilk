@@ -30,7 +30,7 @@ permalink: /
 
 .scroll-text .rainbow-text {
   display: inline-block;
-  animation: scroll 120s linear infinite; /* Adjust duration to 120s */
+  animation: scroll 10s linear infinite; /* Adjust duration to 120s */
 }
 
 @keyframes scroll {
@@ -93,6 +93,10 @@ permalink: /
 
     var overlay = document.querySelector('.overlay');
     overlay.style.pointerEvents = "auto"; // Enable pointer events to allow clicking
+
+    var overlay = document.querySelector('.overlay');
+    overlay.style.pointerEvents = "auto"; // Enable pointer events to allow clicking
+    overlay.style.opacity = "0.5"; // Show the overlay
   });
 
   document.addEventListener("DOMContentLoaded", function() {
