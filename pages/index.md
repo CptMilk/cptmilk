@@ -39,25 +39,106 @@ permalink: /
 }
 </style>
 
-<audio id="kittyAudio" src="/sounds/kitty.mp3"></audio> <!-- Change the path to your kitty.mp3 file -->
+<audio id="kittyAudio" src="/sounds/pedro.mp3"></audio> <!-- Change the path to your kitty.mp3 file -->
 
-<h1 class="page-title">Go Kitty Go!</h1>
+<h1 class="page-title">Click for a Surprise!</h1>
 
-<div class="scroll-text">
-  <span class="rainbow-text">Go kitty, go kitty Go kitty, go, and just Ride kitty, ride kitty Ride kitty, roll Go, 
-    go, go kitty, go, just Go, go, go kitty, go, just Go, go, go kitty, go, just Go, go, go </span>
+<div class="scroll-text" style="display: none;">
+  <span class="rainbow-text">Passeggio tutta sola
+Per le strade
+Guardando attentamente
+I monumenti
+La classica straniera
+Con un'aria strana
+Che gira stanca
+Tutta la città
+A un certo punto
+Della passeggiata
+Mi chiama da una parte
+Un ragazzino
+Sembrava a prima vista
+Tanto per benino
+Si offre a far da guida
+Per la città
+Pedro, Pedro, Pedro, Pedro, Pe
+Praticamente il meglio
+Di Santa Fe
+Pedro, Pedro, Pedro, Pedro, Pe
+Fidati di me
+Altro che ragazzino
+Che per benino
+Sapeva molte cose
+Più di me
+Mi ha portato tante volte
+A veder le stelle
+Ma non ho visto niente
+Di Santa Fe
+Pedro, Pedro, Pedro, Pedro, Pedro, Pe
+Praticamente il meglio
+Di Santa Fe
+Pedro, Pedro, Pedro, Pedro, Pe
+Fidati di me
+Mi sono innamorata
+Seduta stante
+Di Pedro, Pedro, Pedro
+Di Santa Fe
+Mi ha sconvolto le vacanze
+Mi ha stregata
+Non faccio che pensare
+A Pedro Pe
+Pedro, Pedro, Pedro, Pedro, Pedro, Pe
+Travolta di passione a Santa Fe
+Pedro, Pedro, Pedro, Pedro, Pe
+Tornerò da te
+Come ballava bene sotto le stelle
+Praticamente il meglio di Santa Fe
+Le ragazze lo mangiavano
+Con lo sguardo
+Ma lui si concentrava solo con me
+Pedro, Pedro, Pedro, Pedro, Pedro, Pe
+Bellissima avventura di Santa Fe
+Pedro, Pedro, Pedro, Pedro, Pe
+Soli io e te
+Mi sono innamorata
+Seduta stante
+Di Pedro, Pedro, Pedro
+Di Santa Fe
+Mi ha sconvolto le vacanze
+Mi ha stregata
+Non faccio che pensare
+A Pedro Pe
+Pedro, Pedro, Pedro, Pedro, Pedro, Pe
+Praticamente il meglio di Santa Fe
+Pedro, Pedro, Pedro, Pedro, Pe
+Tornerò da te</span>
 </div>
 
 <script>
   document.querySelector('.page-title').addEventListener('click', function() {
     var audio = document.getElementById("kittyAudio");
     audio.play();
+
+    var scrollText = document.querySelector('.scroll-text');
+    scrollText.style.display = "block";
   });
 
-document.addEventListener("DOMContentLoaded", function() {
+  document.addEventListener("DOMContentLoaded", function() {
     var attribution = document.getElementById("attribution");
     if (attribution) {
         attribution.style.display = "none";
     }
-});    
+
+    var leftGif = document.createElement("img");
+    leftGif.src = "/image/racon.gif"; // Adjust path to your GIF
+    leftGif.style.float = "left";
+    leftGif.style.width = "50%";
+    document.body.appendChild(leftGif);
+
+    var rightGif = document.createElement("img");
+    rightGif.src = "/image/racon.gif"; // Adjust path to your GIF
+    rightGif.style.float = "right";
+    rightGif.style.width = "50%";
+    document.body.appendChild(rightGif);
+  });    
 </script>
+
