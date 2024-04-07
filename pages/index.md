@@ -30,7 +30,7 @@ permalink: /
 
 .scroll-text .rainbow-text {
   display: inline-block;
-  animation: scroll 120s linear infinite; /* Change 10s to adjust speed */
+  animation: scroll 120s linear infinite; /* Adjust duration to 120s */
 }
 
 @keyframes scroll {
@@ -46,9 +46,26 @@ permalink: /
   display: block;
   margin: 0 auto;
 }
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, red, orange, yellow, green, blue, violet);
+  opacity: 0;
+  pointer-events: none;
+  animation: overlay-animation 5s infinite alternate; /* Adjust speed as needed */
+}
+
+@keyframes overlay-animation {
+  0% { opacity: 0; }
+  100% { opacity: 0.5; } /* Adjust opacity level */
+}
 </style>
 
-<audio id="kittyAudio" src="/sounds/kitty.mp3"></audio> <!-- Change the path to your kitty.mp3 file -->
+<audio id="kittyAudio" src="/sounds/pedro.mp3"></audio> <!-- Change the path to your kitty.mp3 file -->
 
 <h1 class="page-title">Click for a Surprise!</h1>
 
@@ -123,9 +140,11 @@ Tornerò da te</span>
 </div>
 
 <div class="gif-container">
-  <img src="/image/racon.gif" style="float: left; width: 50%;" alt="Left Gif">
-  <img src="/image/racon.gif" style="float: right; width: 50%;" alt="Right Gif">
+  <img src="/path/to/racon.gif" style="float: left; width: 50%;" alt="Left Gif">
+  <img src="/path/to/racon.gif" style="float: right; width: 50%;" alt="Right Gif">
 </div>
+
+<div class="overlay"></div>
 
 <script>
   document.querySelector('.page-title').addEventListener('click', function() {
@@ -137,6 +156,9 @@ Tornerò da te</span>
 
     var gifContainer = document.querySelector('.gif-container');
     gifContainer.style.display = "block";
+
+    var overlay = document.querySelector('.overlay');
+    overlay.style.pointerEvents = "auto"; // Enable pointer events to allow clicking
   });
 
   document.addEventListener("DOMContentLoaded", function() {
