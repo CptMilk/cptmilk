@@ -55,6 +55,7 @@ permalink: /
   height: 100%;
   opacity: 0;
   pointer-events: none;
+  background: linear-gradient(to right, red, orange, yellow, green, blue, violet);
   animation: overlay-animation 0.2174s infinite alternate; /* 60s / 138 = 0.2174s (approximately) */
 }
 
