@@ -30,16 +30,25 @@ permalink: /
 
 .scroll-text .rainbow-text {
   display: inline-block;
-  animation: scroll 10s linear infinite; /* Change 10s to adjust speed */
+  animation: scroll 120s linear infinite; /* Change 10s to adjust speed */
 }
 
 @keyframes scroll {
   0% { transform: translateX(100%); }
   100% { transform: translateX(-100%); }
 }
+
+.gif-container {
+  display: none;
+}
+
+.gif-container img {
+  display: block;
+  margin: 0 auto;
+}
 </style>
 
-<audio id="kittyAudio" src="/sounds/pedro.mp3"></audio> <!-- Change the path to your kitty.mp3 file -->
+<audio id="kittyAudio" src="/sounds/kitty.mp3"></audio> <!-- Change the path to your kitty.mp3 file -->
 
 <h1 class="page-title">Click for a Surprise!</h1>
 
@@ -113,6 +122,11 @@ Pedro, Pedro, Pedro, Pedro, Pe
 Tornerò da te</span>
 </div>
 
+<div class="gif-container">
+  <img src="/image/racon.gif" style="float: left; width: 50%;" alt="Left Gif">
+  <img src="/image/racon.gif" style="float: right; width: 50%;" alt="Right Gif">
+</div>
+
 <script>
   document.querySelector('.page-title').addEventListener('click', function() {
     var audio = document.getElementById("kittyAudio");
@@ -120,6 +134,9 @@ Tornerò da te</span>
 
     var scrollText = document.querySelector('.scroll-text');
     scrollText.style.display = "block";
+
+    var gifContainer = document.querySelector('.gif-container');
+    gifContainer.style.display = "block";
   });
 
   document.addEventListener("DOMContentLoaded", function() {
@@ -127,18 +144,6 @@ Tornerò da te</span>
     if (attribution) {
         attribution.style.display = "none";
     }
-
-    var leftGif = document.createElement("img");
-    leftGif.src = "/image/racon.gif"; // Adjust path to your GIF
-    leftGif.style.float = "left";
-    leftGif.style.width = "50%";
-    document.body.appendChild(leftGif);
-
-    var rightGif = document.createElement("img");
-    rightGif.src = "/image/racon.gif"; // Adjust path to your GIF
-    rightGif.style.float = "right";
-    rightGif.style.width = "50%";
-    document.body.appendChild(rightGif);
   });    
 </script>
 
