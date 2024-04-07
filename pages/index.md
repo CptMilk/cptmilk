@@ -41,7 +41,7 @@ permalink: /
 
 <audio id="kittyAudio" src="/sounds/kitty.mp3"></audio> <!-- Change the path to your kitty.mp3 file -->
 
-<h1 class="page-title" onmouseover="playKittySound()">Go Kitty Go!</h1>
+<h1 class="page-title" onmouseclick="playKittySound()">Go Kitty Go!</h1>
 
 <div class="scroll-text">
   <span class="rainbow-text">Go kitty, go kitty Go kitty, go, and just Ride kitty, ride kitty Ride kitty, roll Go, 
