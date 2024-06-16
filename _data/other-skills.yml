@@ -1,7 +1,15 @@
-- name: Paint(dot)net
+- name: Paint(dot)net (Liveries specifcally)
   percentage: 99
   color: danger
 
 - name: Moderation experience
   percentage: 90
+  color: info
+
+  - name: Building
+  percentage: 80
+  color: danger
+
+  - name: LuaC Scripting
+  percentage: 60
   color: info
