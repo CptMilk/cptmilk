@@ -108,10 +108,10 @@ ul {
   </ul>
 
   <h2>9. Indemnification</h2>
-  <p>You agree to defend, indemnify, and hold harmless The Finest Designs and its affiliates from and against any claims, liabilities, damages, losses, and expenses, including without limitation, reasonable legal and accounting fees, arising out of or in any way connected with your access to or use of our services or your violation of these terms.</p>
+  <p>You agree to defend, indemnify, and hold harmless The Finest™ Designs and its affiliates from and against any claims, liabilities, damages, losses, and expenses, including without limitation, reasonable legal and accounting fees, arising out of or in any way connected with your access to or use of our services or your violation of these terms.</p>
 
   <h2>10. Governing Law</h2>
-  <p>These terms and conditions are governed by and construed in accordance with the laws of Ireland. You agree that any legal action or proceeding between The Finest Designs and you for any purpose concerning these terms or the parties' obligations hereunder shall be brought exclusively in a court of competent jurisdiction sitting in Ireland.</p>
+  <p>These terms and conditions are governed by and construed in accordance with the laws of Ireland. You agree that any legal action or proceeding between The Finest™ Designs and you for any purpose concerning these terms or the parties' obligations hereunder shall be brought exclusively in a court of competent jurisdiction sitting in Ireland.</p>
 
   <h2>11. Changes to Terms</h2>
   <p>The Finest™ Designs reserves the right to update or modify these terms of service at any time without prior notice. By continuing to access or use our services after any revisions become effective, you agree to be bound by the updated terms. It is your responsibility to review these terms periodically for changes.</p>
