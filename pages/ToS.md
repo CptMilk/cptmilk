@@ -73,13 +73,13 @@ ul {
 
 <div class="content-wrapper">
   <h2>1. Introduction</h2>
-  <p>Welcome to The Finest Designs, a livery design server based in Ireland. By accessing or using our services, you agree to comply with and be bound by the following terms and conditions of use. Please read these terms carefully. If you do not agree with these terms, you are prohibited from using our services.</p>
+  <p>Welcome to The Finest™ Designs, a livery design server based in Ireland. By accessing or using our services, you agree to comply with and be bound by the following terms and conditions of use. Please read these terms carefully. If you do not agree with these terms, you are prohibited from using our services.</p>
 
   <h2>2. Intellectual Property Rights</h2>
-  <p>Unless otherwise stated, The Finest Designs owns the intellectual rights to any material produced by us. We may redistribute and sell all material belonging to us.</p>
+  <p>Unless otherwise stated, The Finest™ Designs owns the intellectual rights to any material produced by us. We may redistribute and sell all material belonging to us.</p>
 
   <h2>3. User Responsibilities</h2>
-  <p>By using The Finest Designs, you agree to:</p>
+  <p>By using The Finest™ Designs, you agree to:</p>
   <ul>
     <li>Not disrupt the functioning of our server or interfere with other users' access.</li>
     <li>Provide accurate and up-to-date information when required.</li>
@@ -88,7 +88,7 @@ ul {
   </ul>
 
   <h2>4. Refunds</h2>
-  <p>The Finest Designs does not offer refunds under any circumstances.</p>
+  <p>The Finest™ Designs does not offer refunds under any circumstances.</p>
 
   <h2>5. Refusal of Service</h2>
   <p>The Finest™ Designs reserves the right to refuse service and close any ticket at any time before receiving payment.</p>
@@ -100,7 +100,7 @@ ul {
   <p>After receiving the liveries, any changes will incur additional costs.</p>
 
   <h2>8. Limitation of Liability</h2>
-  <p>The Finest Designs, its directors, employees, partners, agents, suppliers, or affiliates shall not be liable for any indirect, incidental, special, consequential, or punitive damages, including without limitation, loss of profits, data, use, goodwill, or other intangible losses resulting from:</p>
+  <p>The Finest™ Designs, its directors, employees, partners, agents, suppliers, or affiliates shall not be liable for any indirect, incidental, special, consequential, or punitive damages, including without limitation, loss of profits, data, use, goodwill, or other intangible losses resulting from:</p>
   <ul>
     <li>Your access to or use of, or inability to access or use our services.</li>
     <li>Any conduct or content of any third party on our server.</li>
@@ -114,7 +114,7 @@ ul {
   <p>These terms and conditions are governed by and construed in accordance with the laws of Ireland. You agree that any legal action or proceeding between The Finest Designs and you for any purpose concerning these terms or the parties' obligations hereunder shall be brought exclusively in a court of competent jurisdiction sitting in Ireland.</p>
 
   <h2>11. Changes to Terms</h2>
-  <p>The Finest Designs reserves the right to update or modify these terms of service at any time without prior notice. By continuing to access or use our services after any revisions become effective, you agree to be bound by the updated terms. It is your responsibility to review these terms periodically for changes.</p>
+  <p>The Finest™ Designs reserves the right to update or modify these terms of service at any time without prior notice. By continuing to access or use our services after any revisions become effective, you agree to be bound by the updated terms. It is your responsibility to review these terms periodically for changes.</p>
 
   <h2>-- Contact Us --</h2>
   <p>If you have any questions about these Terms of Service, please contact us:</p>
