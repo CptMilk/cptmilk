@@ -1,4 +1,4 @@
-- name: Paint(dot)net (Liveries specifcally)
+- name: Paint(dot)net (Liveries specifically)
   percentage: 99
   color: danger
 
@@ -10,6 +10,6 @@
   percentage: 80
   color: warning
 
-  - name: LuaC Scripting
+- name: LuaC Scripting
   percentage: 60
   color: success
