@@ -6,10 +6,10 @@
   percentage: 90
   color: info
 
-  - name: Building
+- name: Building
   percentage: 80
-  color: danger
+  color: blue
 
   - name: LuaC Scripting
   percentage: 60
-  color: info
+  color: purple
