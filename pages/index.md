@@ -8,18 +8,22 @@ permalink: /
 
 <style>
 @keyframes rainbow {
-  0% { color: red; }
-  20% { color: orange; }
-  40% { color: yellow; }
-  60% { color: green; }
-  80% { color: blue; }
-  100% { color: violet; }
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
 }
 
 .page-title {
-  animation: rainbow 5s infinite; /* Change 5s to adjust speed */
+  font-size: 2em;
+  font-weight: bold;
+  background: linear-gradient(90deg, red, orange, yellow, green, blue, violet);
+  background-size: 200% 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: rainbow 5s linear infinite;
   text-align: center; /* Center the text */
   cursor: pointer; /* Change cursor on hover */
+  display: inline-block; /* Inline-block to handle padding and cursor */
 }
 
 .scroll-text {
@@ -30,7 +34,7 @@ permalink: /
 
 .scroll-text .rainbow-text {
   display: inline-block;
-  animation: scroll 10s linear infinite; /* Adjust duration to 120s */
+  animation: scroll 10s linear infinite; /* Adjust duration to 10s */
 }
 
 @keyframes scroll {
