@@ -8,8 +8,8 @@
 
 - name: Building
   percentage: 80
-  color: blue
+  color: warning
 
   - name: LuaC Scripting
   percentage: 60
-  color: purple
+  color: success
