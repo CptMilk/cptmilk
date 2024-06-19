@@ -11,33 +11,20 @@ title: Terms of Service
 .page-title {
   text-align: center; /* Center the text */
   cursor: pointer; /* Change cursor on hover */
-  background: linear-gradient(90deg, red, orange, yellow, green, blue, violet);
-  background-size: 400% 100%;
-  color: white;
-  display: inline-block;
-  padding: 10px 20px;
-  -webkit-background-clip: border-box;
-}
-
-.page-title-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 20vh; /* Adjust height as needed */
-  background: linear-gradient(90deg, red, orange, yellow, green, blue, violet);
-  background-size: 400% 100%;
+  color: #333; /* Dark text color */
+  display: block;
+  padding: 20px;
 }
 
 .content-wrapper {
-  padding: 20px;
   max-width: 800px;
   margin: 0 auto;
   font-family: Arial, sans-serif;
-  color: white; /* Set text color to white */
+  color: #333; /* Dark text color */
 }
 
-h2 {
-  color: #ccc; /* Light gray for section headings */
+h1, h2 {
+  color: #444; /* Slightly darker headings */
   border-bottom: 2px solid #eee;
   padding-bottom: 10px;
 }
@@ -46,11 +33,13 @@ p {
   line-height: 1.6;
   margin: 15px 0;
 }
+
+ul {
+  margin-bottom: 20px;
+}
 </style>
 
-<div class="page-title-wrapper">
-  <h1 class="page-title">Terms of Service</h1>
-</div>
+<h1 class="page-title">Terms of Service</h1>
 
 <div class="content-wrapper">
   <h2>1. Introduction</h2>
