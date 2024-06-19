@@ -8,13 +8,7 @@ title: Terms of Service
 {% include landing.html %}
 
 <style>
-@keyframes rainbow {
-  0% { background-position: 0% 50%; }
-  100% { background-position: 100% 50%; }
-}
-
 .page-title {
-  animation: rainbow 5s infinite; /* Adjust speed as needed */
   text-align: center; /* Center the text */
   cursor: pointer; /* Change cursor on hover */
   background: linear-gradient(90deg, red, orange, yellow, green, blue, violet);
@@ -32,7 +26,6 @@ title: Terms of Service
   height: 20vh; /* Adjust height as needed */
   background: linear-gradient(90deg, red, orange, yellow, green, blue, violet);
   background-size: 400% 100%;
-  animation: rainbow 10s infinite;
 }
 
 .content-wrapper {
@@ -40,11 +33,11 @@ title: Terms of Service
   max-width: 800px;
   margin: 0 auto;
   font-family: Arial, sans-serif;
-  color: #333;
+  color: white; /* Set text color to white */
 }
 
 h2 {
-  color: #444;
+  color: #ccc; /* Light gray for section headings */
   border-bottom: 2px solid #eee;
   padding-bottom: 10px;
 }
