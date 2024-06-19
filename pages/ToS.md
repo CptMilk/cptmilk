@@ -49,19 +49,6 @@ title: Terms of Service
   padding: 20px;
 }
 
-.content-wrapper {
-  max-width: 800px;
-  margin: 0 auto;
-  font-family: Arial, sans-serif;
-  color: #333;
-}
-
-h1, h2 {
-  color: #444;
-  border-bottom: 2px solid #eee;
-  padding-bottom: 10px;
-}
-
 p {
   line-height: 1.6;
   margin: 15px 0;
