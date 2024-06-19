@@ -4,6 +4,42 @@ permalink: /tos/
 title: Terms of Service
 ---
 
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="CptMilks Portfolio">
+  <meta property="og:description" content="Heya, Im CptMilk, or just milk. I am a livery designer (professional png maker). if it has a UV Map I can make a livery for it. This is my portfolio">
+  <meta property="og:image" content="image/cat-drift.gif">
+
+  <title>The Finest Terms of Service</title>
+  <meta name="description" content="Heya, Im CptMilk, or just milk. I am a livery designer (professional png maker). if it has a UV Map I can make a livery for it. This is my portfolio">
+
+  <link rel="shortcut icon" type="image/x-icon" href="/image/favicon.ico">
+
+  <!-- Theme style -->
+  <script src="/assets/js/theme.js"></script>
+
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+
+  <!-- Bootstrap CSS CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+
+  <!-- Animate CSS CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css">
+
+   <!-- Custom CSS -->
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <style>
+    .gif-container {
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+
 <style>
 .page-title {
   text-align: center;
