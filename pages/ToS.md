@@ -57,7 +57,6 @@ title: Terms of Service
 }
 
 h1, h2 {
-  color: #444;
   border-bottom: 2px solid #eee;
   padding-bottom: 10px;
 }
