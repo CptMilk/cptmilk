@@ -44,7 +44,6 @@ title: Terms of Service
 .page-title {
   text-align: center;
   cursor: pointer;
-  color: #333;
   display: block;
   padding: 20px;
 }
@@ -53,7 +52,6 @@ title: Terms of Service
   max-width: 800px;
   margin: 0 auto;
   font-family: Arial, sans-serif;
-  color: #333;
 }
 
 h1, h2 {
@@ -123,3 +121,12 @@ ul {
   <p>Email: support@cptmilk.xyz</p>
   <p>Discord: @cptmilk</p>
 </div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    var attribution = document.getElementById("attribution");
+    if (attribution) {
+        attribution.style.display = "none";
+    }
+});    
+</script>
