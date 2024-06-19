@@ -11,11 +11,11 @@ title: Terms of Service
 
   <meta property="og:type" content="website">
   <meta property="og:title" content="CptMilks Portfolio">
-  <meta property="og:description" content="Heya, Im CptMilk, or just milk. I am a livery designer (professional png maker). if it has a UV Map I can make a livery for it. This is my portfolio">
+  <meta property="og:description" content="Customer Terms of Service for TFD">
   <meta property="og:image" content="image/cat-drift.gif">
 
   <title>The Finest Terms of Service</title>
-  <meta name="description" content="Heya, Im CptMilk, or just milk. I am a livery designer (professional png maker). if it has a UV Map I can make a livery for it. This is my portfolio">
+  <meta name="description" content="Customer Terms of Service for TFD">
 
   <link rel="shortcut icon" type="image/x-icon" href="/image/favicon.ico">
 
