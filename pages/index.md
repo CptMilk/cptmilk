@@ -8,22 +8,28 @@ permalink: /
 
 <style>
 @keyframes rainbow {
-  0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
+  0% { color: red; }
+  20% { color: orange; }
+  40% { color: yellow; }
+  60% { color: green; }
+  80% { color: blue; }
+  100% { color: violet; }
 }
 
 .page-title {
-  font-size: 2em;
-  font-weight: bold;
-  background: linear-gradient(90deg, red, orange, yellow, green, blue, violet);
-  background-size: 200% 200%;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: rainbow 5s linear infinite;
+  animation: rainbow 5s infinite; /* Adjust speed as needed */
   text-align: center; /* Center the text */
   cursor: pointer; /* Change cursor on hover */
-  display: inline-block; /* Inline-block to handle padding and cursor */
+  background: linear-gradient(90deg, red, orange, yellow, green, blue, violet);
+  -webkit-background-clip: text;
+  color: transparent;
+  background-size: 400% 100%;
+  animation: gradientMove 5s infinite;
+}
+
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 100% 50%; }
 }
 
 .scroll-text {
@@ -34,7 +40,7 @@ permalink: /
 
 .scroll-text .rainbow-text {
   display: inline-block;
-  animation: scroll 10s linear infinite; /* Adjust duration to 10s */
+  animation: scroll 10s linear infinite; /* Adjust duration as needed */
 }
 
 @keyframes scroll {
@@ -102,10 +108,7 @@ permalink: /
 
     var overlay = document.querySelector('.overlay');
     overlay.style.pointerEvents = "auto"; // Enable pointer events to allow clicking
-
-    var overlay = document.querySelector('.overlay');
     overlay.classList.add('active'); // Add 'active' class to show the overlay
-    overlay.style.pointerEvents = "auto"; // Enable pointer events to allow clicking
   });
 
   document.addEventListener("DOMContentLoaded", function() {
