@@ -7,9 +7,9 @@
   color: info
 
 - name: Building
-  percentage: 80
+  percentage: 85
   color: warning
 
-- name: LuaC Scripting
-  percentage: 60
+- name: LuaU Scripting
+  percentage: 65
   color: success
