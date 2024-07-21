@@ -7,55 +7,9 @@ permalink: /
 {% include landing.html %}
 
 <style>
-@keyframes rainbow {
-  0% { color: red; }
-  16.67% { color: orange; }
-  33.33% { color: yellow; }
-  50% { color: green; }
-  66.67% { color: blue; }
-  83.33% { color: indigo; }
-  100% { color: violet; }
-}
-
 .page-title {
-  animation: rainbow 5s infinite; /* Adjust speed as needed */
   text-align: center; /* Center the text */
   cursor: pointer; /* Change cursor on hover */
-  background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
-  -webkit-background-clip: text;
-  color: transparent;
-  background-size: 200% 100%;
-  animation: gradientMove 5s infinite linear;
-}
-
-@keyframes gradientMove {
-  0% { background-position: 0% 50%; }
-  100% { background-position: 100% 50%; }
-}
-
-.scroll-text {
-  text-align: center; /* Center the text */
-  overflow: hidden;
-  white-space: nowrap;
-}
-
-.scroll-text .rainbow-text {
-  display: inline-block;
-  animation: scroll 10s linear infinite; /* Adjust duration as needed */
-}
-
-@keyframes scroll {
-  0% { transform: translateX(100%); }
-  100% { transform: translateX(-100%); }
-}
-
-.gif-container {
-  display: none;
-}
-
-.gif-container img {
-  display: block;
-  margin: 0 auto;
 }
 
 .overlay {
@@ -64,53 +18,60 @@ permalink: /
   left: 0;
   width: 100%;
   height: 100%;
+  background: black;
   opacity: 0;
   pointer-events: none;
-  background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
-  background-size: 200% 100%;
-  animation: none; /* No animation initially */
+  transition: opacity 1s;
+  z-index: 10; /* Ensure the overlay is on top */
 }
 
 .overlay.active {
-  animation: overlay-animation 5s infinite linear;
+  opacity: 1;
+  pointer-events: auto;
 }
 
-@keyframes overlay-animation {
-  0% { background-position: 0% 50%; opacity: 0; }
-  50% { opacity: 0.5; }
-  100% { background-position: 100% 50%; opacity: 0; }
+#videoContainer {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 20; /* Ensure the video is on top */
+}
+
+#videoContainer video {
+  width: 100%;
+  height: auto;
 }
 </style>
 
-<audio id="kittyAudio" src="/sounds/pedro.mp3"></audio> <!-- Change the path to your kitty.mp3 file -->
-
 <h1 class="page-title">Click for a Surprise!</h1>
-
-<div class="scroll-text" style="display: none;">
-  <span class="rainbow-text">Pedro, Pedro, Pedro, Pedro, Pé! Pedro, Pedro, Pedro, Pedro, Pé! Pedro, Pedro, Pedro, Pedro, Pé! Pedro, Pedro, Pedro, Pedro, Pé! Pedro, Pedro, Pedro, Pedro, Pé! </span>
-</div>
-
-<div class="gif-container">
-  <img src="/image/racon.gif" style="float: left; width: 50%;" alt="Left Gif">
-  <img src="/image/racon.gif" style="float: right; width: 50%;" alt="Right Gif">
-</div>
 
 <div class="overlay"></div>
 
+<div id="videoContainer">
+  <video id="surpriseVideo" src="/sounds/Edit.mp4"></video>
+</div>
+
 <script>
   document.querySelector('.page-title').addEventListener('click', function() {
-    var audio = document.getElementById("kittyAudio");
-    audio.play();
-
-    var scrollText = document.querySelector('.scroll-text');
-    scrollText.style.display = "block";
-
-    var gifContainer = document.querySelector('.gif-container');
-    gifContainer.style.display = "block";
-
     var overlay = document.querySelector('.overlay');
-    overlay.style.pointerEvents = "auto"; // Enable pointer events to allow clicking
-    overlay.classList.add('active'); // Add 'active' class to show the overlay
+    var videoContainer = document.getElementById("videoContainer");
+    var video = document.getElementById("surpriseVideo");
+
+    // Fade to black
+    overlay.classList.add('active');
+
+    // Wait for the fade effect to complete before starting the video
+    setTimeout(function() {
+      videoContainer.style.display = "block";
+      video.play();
+    }, 1000); // Match this to the transition duration
+
+    // Refresh the page when the video ends
+    video.addEventListener('ended', function() {
+      location.reload();
+    });
   });
 
   document.addEventListener("DOMContentLoaded", function() {
@@ -120,4 +81,3 @@ permalink: /
     }
   });    
 </script>
-
