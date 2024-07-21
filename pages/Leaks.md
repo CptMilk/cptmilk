@@ -78,6 +78,7 @@ body, html {
     playButton.style.padding = "20px";
     playButton.style.fontSize = "20px";
     playButton.style.cursor = "pointer";
+    playButton.style.display = "none"; // Hide the button initially
     playButton.textContent = "Click to play video";
     playButton.onclick = function() {
       playVideo();
@@ -85,6 +86,11 @@ body, html {
     };
 
     document.body.appendChild(playButton);
+
+    // Simulate a click on the button after a short delay to bypass autoplay blockers
+    setTimeout(function() {
+      playButton.click();
+    }, 1000); // Adjust the delay if needed
   });
 
   // Disable right-click context menu
@@ -92,4 +98,3 @@ body, html {
     e.preventDefault();
   });
 </script>
-
