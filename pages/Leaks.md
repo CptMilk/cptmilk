@@ -49,16 +49,22 @@ body, html {
     videoContainer.style.display = "block";
 
     // Request full screen
-    videoContainer.requestFullscreen().then(() => {
-      // Play the video
-      video.play();
+    if (videoContainer.requestFullscreen) {
+      videoContainer.requestFullscreen();
+    } else if (videoContainer.mozRequestFullScreen) { /* Firefox */
+      videoContainer.mozRequestFullScreen();
+    } else if (videoContainer.webkitRequestFullscreen) { /* Chrome, Safari & Opera */
+      videoContainer.webkitRequestFullscreen();
+    } else if (videoContainer.msRequestFullscreen) { /* IE/Edge */
+      videoContainer.msRequestFullscreen();
+    }
 
-      // Refresh the page when the video ends
-      video.addEventListener('ended', function() {
-        location.reload();
-      });
-    }).catch(err => {
-      console.log(`Error attempting to enable full-screen mode: ${err.message} (${err.name})`);
+    // Play the video
+    video.play();
+
+    // Refresh the page when the video ends
+    video.addEventListener('ended', function() {
+      location.reload();
     });
   });
 
@@ -67,3 +73,4 @@ body, html {
     e.preventDefault();
   });
 </script>
+
