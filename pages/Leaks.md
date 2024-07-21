@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: null
 title: Game Leaks
 permalink: /leaks
 weight: 4
