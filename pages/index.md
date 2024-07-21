@@ -42,6 +42,7 @@ permalink: /
 #videoContainer video {
   width: 100%;
   height: auto;
+  pointer-events: none; /* Disable all pointer events on the video */
 }
 </style>
 
@@ -50,6 +51,7 @@ permalink: /
 <div class="overlay"></div>
 
 <div id="videoContainer">
+  <div class="video-overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 30;"></div>
   <video id="surpriseVideo" src="/sounds/Edit.mp4"></video>
 </div>
 
@@ -79,5 +81,10 @@ permalink: /
     if (attribution) {
         attribution.style.display = "none";
     }
-  });    
+  });
+
+  // Disable right-click context menu
+  document.addEventListener('contextmenu', function(e) {
+    e.preventDefault();
+  });
 </script>
