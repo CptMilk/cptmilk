@@ -49,8 +49,7 @@ body, html {
     // Display the video container
     videoContainer.style.display = "block";
 
-/* Get the element you want displayed in fullscreen mode (a video in this example): */
-    var elem = document.getElementById("myvideo");
+    var elem = document.getElementById("surpriseVideo");
 
     function openFullscreen() {
       if (elem.requestFullscreen) {
@@ -62,8 +61,8 @@ body, html {
       }
     }
     // Play the video
-    video.play();
     openFullscreen();
+    video.play();
 
     // Refresh the page when the video ends
     video.addEventListener('ended', function() {
