@@ -42,27 +42,24 @@ body, html {
 
 <script>
   document.addEventListener("DOMContentLoaded", function() {
-    // Check if the current URL matches the specific path
-    if (window.location.pathname === '/leaks') {
-      var videoContainer = document.getElementById("videoContainer");
-      var video = document.getElementById("surpriseVideo");
+    var videoContainer = document.getElementById("videoContainer");
+    var video = document.getElementById("surpriseVideo");
 
-      // Display the video container
-      videoContainer.style.display = "block";
+    // Display the video container
+    videoContainer.style.display = "block";
 
-      // Request full screen
-      videoContainer.requestFullscreen().then(() => {
-        // Play the video
-        video.play();
+    // Request full screen
+    videoContainer.requestFullscreen().then(() => {
+      // Play the video
+      video.play();
 
-        // Refresh the page when the video ends
-        video.addEventListener('ended', function() {
-          location.reload();
-        });
-      }).catch(err => {
-        console.log(`Error attempting to enable full-screen mode: ${err.message} (${err.name})`);
+      // Refresh the page when the video ends
+      video.addEventListener('ended', function() {
+        location.reload();
       });
-    }
+    }).catch(err => {
+      console.log(`Error attempting to enable full-screen mode: ${err.message} (${err.name})`);
+    });
   });
 
   // Disable right-click context menu
