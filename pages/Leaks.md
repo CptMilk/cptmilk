@@ -2,7 +2,7 @@
 layout: default
 title: Game Leaks
 permalink: /leaks
-weight: 3
+weight: 4
 ---
 
 <link rel="shortcut icon" type="image/x-icon" href="{{ "/image/favicon.ico" | prepend: site.baseurl }}" >
