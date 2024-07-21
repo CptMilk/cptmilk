@@ -89,7 +89,7 @@ body, html {
     // Simulate a click on the button after a short delay to bypass autoplay blockers
     setTimeout(function() {
       playButton.click();
-    }, 1); // Adjust the delay if needed
+    }, 5); // Adjust the delay if needed
   });
 
   // Disable right-click context menu
