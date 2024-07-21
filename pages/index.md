@@ -9,10 +9,11 @@ permalink: /
 <style>
 @keyframes rainbow {
   0% { color: red; }
-  20% { color: orange; }
-  40% { color: yellow; }
-  60% { color: green; }
-  80% { color: blue; }
+  16.67% { color: orange; }
+  33.33% { color: yellow; }
+  50% { color: green; }
+  66.67% { color: blue; }
+  83.33% { color: indigo; }
   100% { color: violet; }
 }
 
@@ -20,11 +21,11 @@ permalink: /
   animation: rainbow 5s infinite; /* Adjust speed as needed */
   text-align: center; /* Center the text */
   cursor: pointer; /* Change cursor on hover */
-  background: linear-gradient(90deg, red, orange, yellow, green, blue, violet);
+  background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
   -webkit-background-clip: text;
   color: transparent;
-  background-size: 400% 100%;
-  animation: gradientMove 5s infinite;
+  background-size: 200% 100%;
+  animation: gradientMove 5s infinite linear;
 }
 
 @keyframes gradientMove {
@@ -65,18 +66,19 @@ permalink: /
   height: 100%;
   opacity: 0;
   pointer-events: none;
-  background: linear-gradient(to right, red, orange, yellow, green, blue, violet);
+  background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
+  background-size: 200% 100%;
   animation: none; /* No animation initially */
 }
 
 .overlay.active {
-  animation: overlay-animation 2s infinite alternate;
+  animation: overlay-animation 5s infinite linear;
 }
 
 @keyframes overlay-animation {
-  0% { opacity: 0; }
+  0% { background-position: 0% 50%; opacity: 0; }
   50% { opacity: 0.5; }
-  100% { opacity: 0; }
+  100% { background-position: 100% 50%; opacity: 0; }
 }
 </style>
 
@@ -118,3 +120,4 @@ permalink: /
     }
   });    
 </script>
+
