@@ -51,7 +51,7 @@ permalink: /
 <div class="overlay"></div>
 
 <div id="videoContainer">
-  <div class="video-overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 30;"></div>
+  <div class="video-overlay" style="position: absolute; top: 0; left: 0; width: 150%; height: 150%; z-index: 30;"></div>
   <video id="surpriseVideo" src="/sounds/Edit.mp4"></video>
 </div>
 
