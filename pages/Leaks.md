@@ -6,7 +6,6 @@ weight: 4
 ---
 
 <link rel="shortcut icon" type="image/x-icon" href="{{ "/image/favicon.ico" | prepend: site.baseurl }}" >
-{% include landing.html %}
 
 <style>
 body, html {
