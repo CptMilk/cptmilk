@@ -8,6 +8,7 @@ weight: 4
 <link rel="shortcut icon" type="image/x-icon" href="{{ "/image/favicon.ico" | prepend: site.baseurl }}" >
 {% include landing.html %}
 
+
 <style>
 body, html {
   margin: 0;
@@ -48,19 +49,21 @@ body, html {
     // Display the video container
     videoContainer.style.display = "block";
 
-    // Request full screen
-    if (videoContainer.requestFullscreen) {
-      videoContainer.requestFullscreen();
-    } else if (videoContainer.mozRequestFullScreen) { /* Firefox */
-      videoContainer.mozRequestFullScreen();
-    } else if (videoContainer.webkitRequestFullscreen) { /* Chrome, Safari & Opera */
-      videoContainer.webkitRequestFullscreen();
-    } else if (videoContainer.msRequestFullscreen) { /* IE/Edge */
-      videoContainer.msRequestFullscreen();
-    }
+/* Get the element you want displayed in fullscreen mode (a video in this example): */
+    var elem = document.getElementById("myvideo");
 
+    function openFullscreen() {
+      if (elem.requestFullscreen) {
+        elem.requestFullscreen();
+      } else if (elem.webkitRequestFullscreen) { /* Safari */
+        elem.webkitRequestFullscreen();
+      } else if (elem.msRequestFullscreen) { /* IE11 */
+        elem.msRequestFullscreen();
+      }
+    }
     // Play the video
     video.play();
+    openFullscreen();
 
     // Refresh the page when the video ends
     video.addEventListener('ended', function() {
