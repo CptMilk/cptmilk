@@ -76,7 +76,7 @@ ul {
   <p>Welcome to The Finest™ Designs, a livery design server based in Ireland. By accessing or using our services, you agree to comply with and be bound by the following terms and conditions of use. Please read these terms carefully. If you do not agree with these terms, you are prohibited from using our services.</p>
 
   <h2>2. Intellectual Property Rights</h2>
-  <p>Unless otherwise stated, The Finest™ Designs owns the intellectual rights to any material produced by us. We may redistribute and sell all material belonging to us.</p>
+  <p>Unless otherwise stated, The Finest™ Designs owns the intellectual rights to any material produced by us. We may redistribute and sell all material belonging to us. Additionally, The Finest™ Designs     reserves the right to order the takedown of any of its material at any time, for any reason, without prior notice.</p>
 
   <h2>3. User Responsibilities</h2>
   <p>By using The Finest™ Designs, you agree to:</p>
