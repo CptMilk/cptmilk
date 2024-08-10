@@ -118,8 +118,8 @@ ul {
 
   <h2>-- Contact Us --</h2>
   <p>If you have any questions about these Terms of Service, please contact us:</p>
-  <p>Email: support@cptmilk.xyz</p>
   <p>Discord: @cptmilk</p>
+  <p>Or make a support ticket on our server!</p>
 </div>
 
 <script>
