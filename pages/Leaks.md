@@ -33,18 +33,36 @@ body, html {
   height: 100%;
   object-fit: cover; /* Ensure the video covers the entire container */
 }
+
+#playButton {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #FF4500;
+  color: white;
+  border: none;
+  z-index: 20; /* Ensure the button is above other elements */
+}
 </style>
 
 <div id="videoContainer">
   <video id="surpriseVideo" src="/sounds/Never.mp4"></video>
 </div>
 
+<button id="playButton" onclick="playVideo()">Click to get the leaks!</button>
+
 <script>
   function playVideo() {
     var videoContainer = document.getElementById("videoContainer");
     var video = document.getElementById("surpriseVideo");
+    var playButton = document.getElementById("playButton");
 
-    // Display the video container
+    // Hide the button and show the video container
+    playButton.style.display = "none";
     videoContainer.style.display = "block";
 
     // Request full screen
@@ -66,28 +84,6 @@ body, html {
       location.reload();
     });
   }
-
-  document.addEventListener("DOMContentLoaded", function() {
-    // Create a button to trigger video playback
-    var playButton = document.createElement("button");
-    playButton.style.position = "fixed";
-    playButton.style.top = "50%";
-    playButton.style.left = "50%";
-    playButton.style.transform = "translate(-50%, -50%)";
-    playButton.style.padding = "20px";
-    playButton.style.fontSize = "20px";
-    playButton.style.cursor = "pointer";
-    playButton.style.display = "none"; // Hide the button initially
-    playButton.textContent = "Click to play video";
-    playButton.onclick = function() {
-      playVideo();
-      playButton.style.display = "none"; // Hide the button after clicking
-    };
-
-    document.body.appendChild(playButton);
-
-      playButton.click();
-  });
 
   // Disable right-click context menu
   document.addEventListener('contextmenu', function(e) {
