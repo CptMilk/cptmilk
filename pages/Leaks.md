@@ -39,13 +39,28 @@ body, html {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  padding: 20px;
+  padding: 20px 40px;
   font-size: 20px;
+  font-weight: bold;
   cursor: pointer;
-  background-color: #FF4500;
   color: white;
   border: none;
+  border-radius: 8px;
+  animation: rainbow 1.5s infinite; /* Apply rainbow animation */
+  background-size: 200% 200%;
   z-index: 20; /* Ensure the button is above other elements */
+}
+
+/* Keyframes for the rainbow animation */
+@keyframes rainbow {
+  0% { background-color: #FF0000; }    /* Red */
+  14% { background-color: #FF7F00; }   /* Orange */
+  28% { background-color: #FFFF00; }   /* Yellow */
+  42% { background-color: #00FF00; }   /* Green */
+  57% { background-color: #0000FF; }   /* Blue */
+  71% { background-color: #4B0082; }   /* Indigo */
+  85% { background-color: #8B00FF; }   /* Violet */
+  100% { background-color: #FF0000; }  /* Red */
 }
 </style>
 
