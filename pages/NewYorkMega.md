@@ -58,8 +58,6 @@ permalink: /NYCPack
       <td style="vertical-align: top; text-align: center;"><a href="/images/NYPD/Impala.jpg"><font face="Arial,Helvetica"><img alt="" src="/images/NYPD/Impala.jpg" style="border: 0px solid ; width: 250px; height: 120px;"><br>
 2006 Impala</font></a> <font><font><br>
       </font></font><font size="-1">rbxassetid://95596563186421</font></td>
-    </tr>
-    <tr>
       <td style="vertical-align: top; text-align: center;"><a href="/images/NYPD/11Vic.jpg"><font face="Arial,Helvetica"><img alt="" src="/images/NYPD/11Vic.jpg" style="border: 0px solid ; width: 250px; height: 120px;"><br>
 2011 Crown Victoria</font></a> <font><font><br>
       </font></font><font size="-1">rbxassetid://86583379847852</font></td>
