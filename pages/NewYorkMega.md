@@ -72,6 +72,6 @@ permalink: /NYCPack
   </tbody>
 </table>
 <br>
-<hr width="100%" size="2"></center>
+</center><hr width="100%" size="2"></center>
 <br>
 <br>
