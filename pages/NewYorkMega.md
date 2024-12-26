@@ -27,7 +27,7 @@ permalink: /NYCPack
 <body>
 <center>
 <hr width="100%" noshade="noshade" size="1">
-<hr width="100%" size="2"><b><font face="Arial,Helvetica"><font color="#666600">New York City Whole Server Pack </font></font></b><br>
+<hr width="100%" size="2"><b><font face="Arial,Helvetica"><font color="#4141C6">New York City Whole Server Pack </font></font></b><br>
 <hr width="100%" size="2"><br>
 <table style="text-align: left; width: 999px; background-color: rgb(23, 25, 26);" border="2" cellpadding="2" cellspacing="0">
   <tbody>
