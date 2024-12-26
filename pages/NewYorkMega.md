@@ -24,15 +24,16 @@ permalink: /NYCPack
   
   <title>TFD NYC Pack</title>
 </head>
+
 <body>
 <center>
 <hr width="100%" noshade="noshade" size="1">
-<hr width="100%" size="2"><b><font face="Arial,Helvetica"><font color="#4141C6">New York City Whole Server Pack </font></font></b><br>
-<hr width="100%" size="2"><br>
-<table style="text-align: left; width: 999px; background-color: rgb(23, 25, 26);" border="2" cellpadding="2" cellspacing="0">
+<hr width="100%" size="2"><b><font face="Arial,Helvetica"><font color="#4141C6">New York City Whole Server Pack </font></font></b>
+<hr width="100%" size="2">
+<table style="text-align: left; width: 999px; background-color: rgb(23, 25, 26);" border="1" cellpadding="2" cellspacing="0">
   <tbody>
     <tr>
-      <td style="vertical-align: top; text-align: center;"><a href="/images/NYPD/20Exp.jpg"><font face="Arial,Helvetica"><img alt="" src="/images/NYPD/20Exp.jpg" style="border: 0px solid ; width: 250px; height: 130px;"><br>
+      <td style="vertical-align: top; text-align: center;"><a href="/images/NYPD/20Exp.jpg"><font face="Arial,Helvetica"><img alt="" src="/images/NYPD/20Exp.jpg" style="border: 0px solid ; width: 250px; height: 130px;">
 2020 Ford Explorer</font></a><font size="-1"><br>
       </font><font size="-1">rbxassetid://103056252180595</font></td>
       <td style="vertical-align: top; text-align: center;"><a href="/images/NYPD/16Exp.jpg"><font face="Arial,Helvetica"><img alt="" src="/images/NYPD/16Exp.jpg" style="border: 0px solid ; width: 250px; height: 130px;"><br>
@@ -69,10 +70,10 @@ permalink: /NYCPack
 2023 Ford Expedition</font></a> <font size="-1"><br>
       </font><font size="-1">rbxassetid://102034390467125</font></td>
       <td style="vertical-align: top; text-align: center;"><a href="/images/NYPD/Impala.jpg"><font face="Arial,Helvetica"><img alt="" src="/images/NYPD/Impala.jpg" style="border: 0px solid ; width: 250px; height: 120px;"><br>
-2006 Impala</font></a> <font><font><br>
+2006 Chevrolet Impala</font></a> <font><font><br>
       </font></font><font size="-1">rbxassetid://95596563186421</font></td>
       <td style="vertical-align: top; text-align: center;"><a href="/images/NYPD/11Vic.jpg"><font face="Arial,Helvetica"><img alt="" src="/images/NYPD/11Vic.jpg" style="border: 0px solid ; width: 250px; height: 120px;"><br>
-2011 Crown Victoria</font></a> <font><font><br>
+2011 Ford Crown Victoria</font></a> <font><font><br>
       </font></font><font size="-1">rbxassetid://86583379847852</font></td>
     <tr>
       <td valign="top" align="center"><br>
@@ -80,11 +81,7 @@ permalink: /NYCPack
       <td valign="top" align="center"><br>
       </td>
       <td valign="top" align="center"><br>
-      </td>
+      </td>      
     </tr>
   </tbody>
 </table>
-<br>
-<hr width="100%" size="2"></center>
-<br>
-<br>
