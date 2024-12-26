@@ -8,8 +8,8 @@ permalink: /
 
 <style>
 .page-title {
-  text-align: center; /* Center the text */
-  cursor: pointer; /* Change cursor on hover */
+  text-align: center;
+  cursor: pointer;
 }
 
 .overlay {
@@ -22,7 +22,7 @@ permalink: /
   opacity: 0;
   pointer-events: none;
   transition: opacity 1s;
-  z-index: 10; /* Ensure the overlay is on top */
+  z-index: 10;
 }
 
 .overlay.active {
@@ -36,13 +36,13 @@ permalink: /
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  z-index: 20; /* Ensure the video is on top */
+  z-index: 20;
 }
 
 #videoContainer video {
   width: 100%;
   height: auto;
-  pointer-events: none; /* Disable all pointer events on the video */
+  pointer-events: none;
 }
 </style>
 
@@ -61,16 +61,13 @@ permalink: /
     var videoContainer = document.getElementById("videoContainer");
     var video = document.getElementById("surpriseVideo");
 
-    // Fade to black
     overlay.classList.add('active');
 
-    // Wait for the fade effect to complete before starting the video
     setTimeout(function() {
       videoContainer.style.display = "block";
       video.play();
-    }, 1000); // Match this to the transition duration
+    }, 1000);
 
-    // Refresh the page when the video ends
     video.addEventListener('ended', function() {
       location.reload();
     });
@@ -83,7 +80,6 @@ permalink: /
     }
   });
 
-  // Disable right-click context menu
   document.addEventListener('contextmenu', function(e) {
     e.preventDefault();
   });
