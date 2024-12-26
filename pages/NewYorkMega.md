@@ -85,6 +85,6 @@ permalink: /NYCPack
   </tbody>
 </table>
 <br>
-</center><hr width="100%" size="2"></center>
+<hr width="100%" size="2"></center>
 <br>
 <br>
