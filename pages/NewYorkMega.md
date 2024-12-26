@@ -29,7 +29,7 @@ permalink: /NYCPack
 <hr width="100%" noshade="noshade" size="1">
 <hr width="100%" size="2"><b><font face="Arial,Helvetica"><font color="#666600">New York City Whole Server Pack </font></font></b><br>
 <hr width="100%" size="2"><br>
-<table style="text-align: left; width: 999px; background-color: rgb(204, 204, 204);" border="1" cellpadding="2" cellspacing="0">
+<table style="text-align: left; width: 999px; background-color: rgb(23, 25, 26);" border="2" cellpadding="2" cellspacing="0">
   <tbody>
     <tr>
       <td style="vertical-align: top; text-align: center;"><a href="/images/NYPD/20Exp.jpg"><font face="Arial,Helvetica"><img alt="" src="/images/NYPD/20Exp.jpg" style="border: 0px solid ; width: 250px; height: 130px;"><br>
