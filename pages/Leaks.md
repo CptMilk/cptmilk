@@ -11,7 +11,7 @@ weight: 4
 body, html {
   margin: 0;
   padding: 0;
-  overflow: hidden; /* Hide scrollbars to ensure fullscreen video */
+  overflow: hidden;
   height: 100%;
   width: 100%;
   background: black;
@@ -25,13 +25,13 @@ body, html {
   transform: translate(-50%, -50%);
   width: 100%;
   height: 100%;
-  z-index: 10; /* Ensure the video is on top */
+  z-index: 10;
 }
 
 #videoContainer video {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Ensure the video covers the entire container */
+  object-fit: cover;
 }
 
 #playButton {
@@ -46,21 +46,21 @@ body, html {
   color: white;
   border: none;
   border-radius: 8px;
-  animation: rainbow 1.5s infinite; /* Apply rainbow animation */
+  animation: rainbow 1.5s infinite; 
   background-size: 200% 200%;
-  z-index: 20; /* Ensure the button is above other elements */
+  z-index: 20; 
 }
 
-/* Keyframes for the rainbow animation */
+
 @keyframes rainbow {
-  0% { background-color: #FF0000; }    /* Red */
-  14% { background-color: #FF7F00; }   /* Orange */
-  28% { background-color: #FFFF00; }   /* Yellow */
-  42% { background-color: #00FF00; }   /* Green */
-  57% { background-color: #0000FF; }   /* Blue */
-  71% { background-color: #4B0082; }   /* Indigo */
-  85% { background-color: #8B00FF; }   /* Violet */
-  100% { background-color: #FF0000; }  /* Red */
+  0% { background-color: #FF0000; } 
+  14% { background-color: #FF7F00; }   
+  28% { background-color: #FFFF00; }  
+  42% { background-color: #00FF00; }   
+  57% { background-color: #0000FF; }   
+  71% { background-color: #4B0082; }  
+  85% { background-color: #8B00FF; }   
+  100% { background-color: #FF0000; } 
 }
 </style>
 
@@ -76,31 +76,26 @@ body, html {
     var video = document.getElementById("surpriseVideo");
     var playButton = document.getElementById("playButton");
 
-    // Hide the button and show the video container
     playButton.style.display = "none";
     videoContainer.style.display = "block";
 
-    // Request full screen
     if (videoContainer.requestFullscreen) {
       videoContainer.requestFullscreen();
-    } else if (videoContainer.mozRequestFullScreen) { /* Firefox */
+    } else if (videoContainer.mozRequestFullScreen) { 
       videoContainer.mozRequestFullScreen();
-    } else if (videoContainer.webkitRequestFullscreen) { /* Chrome, Safari & Opera */
+    } else if (videoContainer.webkitRequestFullscreen) { 
       videoContainer.webkitRequestFullscreen();
-    } else if (videoContainer.msRequestFullscreen) { /* IE/Edge */
+    } else if (videoContainer.msRequestFullscreen) {
       videoContainer.msRequestFullscreen();
     }
 
-    // Play the video
     video.play();
 
-    // Refresh the page when the video ends
     video.addEventListener('ended', function() {
       location.reload();
     });
   }
 
-  // Disable right-click context menu
   document.addEventListener('contextmenu', function(e) {
     e.preventDefault();
   });
