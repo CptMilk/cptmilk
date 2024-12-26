@@ -2,7 +2,6 @@
 layout: null
 title: New York City Full Server Pack
 permalink: /NYCPack
-weight: 4
 ---
 
 
