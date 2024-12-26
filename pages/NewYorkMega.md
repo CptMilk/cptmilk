@@ -9,6 +9,19 @@ permalink: /NYCPack
   <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
   <meta name="Author" content="rwcar4">
   <meta name="GENERATOR" content="Mozilla/4.61 [en]C-AtHome0407  (WinNT; U) [Netscape]">
+
+  <link rel="shortcut icon" type="image/x-icon" href="/image/favicon.ico">
+
+  <script src="/assets/js/theme.js"></script>
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css">
+
+  <link rel="stylesheet" href="/assets/css/style.css">
+  
   <title>TFD NYC Pack</title>
 </head>
 <body>
