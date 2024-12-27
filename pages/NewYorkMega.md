@@ -4,7 +4,6 @@ title: New York City Full Server Pack
 permalink: /NYCPack
 ---
 
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -139,7 +138,7 @@ permalink: /NYCPack
           </td>
         </tr>
         <!-- Break End -->
-             <tr>
+        <tr>
           <td class="text-center">
             <a href="/images/NYSO/16Exp.jpg">
               <img src="/images/NYSO/16Exp.jpg" alt="2016 Ford Explorer" class="img-fluid">
@@ -184,6 +183,7 @@ permalink: /NYCPack
             </a>
             <div class="small">rbxassetid://132792846566689</div>
           </td>
+        </tr>
         <!-- Break -->
         <tr>
           <td colspan="3">
@@ -193,7 +193,7 @@ permalink: /NYCPack
           </td>
         </tr>
         <!-- Break End -->
-             <tr>
+        <tr>
           <td class="text-center">
             <a href="/images/OSP/20Exp.jpg">
               <img src="/images/OSP/20Exp.jpg" alt="2020 Ford Explorer" class="img-fluid">
@@ -261,6 +261,7 @@ permalink: /NYCPack
             </a>
             <div class="small">rbxassetid://121340955664150</div>
           </td>
+        </tr>
       </tbody>
     </table>
   </div>
