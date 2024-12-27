@@ -23,140 +23,140 @@ permalink: /NYCPack
 </head>
 <body>
   <div class="container text-center">
-    <hr width="100%" noshade="noshade" size="1">
-    <hr width="100%" size="2"><b><font face="Arial,Helvetica"><font color="#4141C6">New York City Whole Server Pack </font></font></b>
-    <hr width="100%" size="2">
+    <hr class="my-4">
+    <h2 class="text-primary">New York City Whole Server Pack</h2>
+    <hr class="my-4">
       <table style="text-align: left; width: 999px; background-color: rgb(23, 25, 26);" border="1" cellpadding="2" cellspacing="0">
+      <caption>List of vehicles available in the NYC Pack</caption>
       <tbody>
-        <!--Break-->
+        <!-- Break -->
         <tr>
-        <td valign="top" align="center"><br>
-        </td>
-        <td class="text-center" align="center"> <b> New York City Police Department </b> <br>
-        </td>
-        <td valign="top" align="center"><br>
-        </td>      
+          <td colspan="3">
+            <div class="text-center font-weight-bold py-3">
+              <b> New York City Police Department </b>
+            </div>
+          </td>
         </tr>
-        <!--Break End-->
+        <!-- Break End -->
         <tr>
-          <td class="text-center">
+          <td>
             <a href="/images/NYPD/20Exp.jpg">
-              <img src="/images/NYPD/20Exp.jpg" alt="2020 Ford Explorer" class="img-fluid" style="width: 250px; height: 130px;">
+              <img src="/images/NYPD/20Exp.jpg" alt="2020 Ford Explorer Police Vehicle" class="img-fluid">
               <br>2020 Ford Explorer
             </a>
             <div class="small">rbxassetid://103056252180595</div>
           </td>
-          <td class="text-center">
+          <td>
             <a href="/images/NYPD/16Exp.jpg">
-              <img src="/images/NYPD/16Exp.jpg" alt="2016 Ford Explorer" class="img-fluid" style="width: 250px; height: 130px;">
+              <img src="/images/NYPD/16Exp.jpg" alt="2016 Ford Explorer Police Vehicle" class="img-fluid">
               <br>2016 Ford Explorer
             </a>
             <div class="small">rbxassetid://86363475452729</div>
           </td>
-          <td class="text-center">
+          <td>
             <a href="/images/NYPD/21SUV.jpg">
-              <img src="/images/NYPD/21SUV.jpg" alt="2021 Chevrolet Tahoe" class="img-fluid" style="width: 240px; height: 120px;">
+              <img src="/images/NYPD/21SUV.jpg" alt="2021 Chevrolet Tahoe Police Vehicle" class="img-fluid">
               <br>2021 Chevrolet Tahoe
             </a>
             <div class="small">rbxassetid://81871220991754</div>
           </td>
         </tr>
         <tr>
-          <td class="text-center">
+          <td>
             <a href="/images/NYPD/16SUV.jpg">
-              <img src="/images/NYPD/16SUV.jpg" alt="2016 Chevrolet Tahoe" class="img-fluid" style="width: 250px; height: 120px;">
+              <img src="/images/NYPD/16SUV.jpg" alt="2016 Chevrolet Tahoe Police Vehicle" class="img-fluid">
               <br>2016 Chevrolet Tahoe
             </a>
             <div class="small">rbxassetid://136798238669604</div>
           </td>
-          <td class="text-center">
+          <td>
             <a href="/images/NYPD/16Chrg.jpg">
-              <img src="/images/NYPD/16Chrg.jpg" alt="2016 Dodge Charger" class="img-fluid" style="width: 260px; height: 120px;">
+              <img src="/images/NYPD/16Chrg.jpg" alt="2016 Dodge Charger Police Vehicle" class="img-fluid">
               <br>2016 Dodge Charger
             </a>
             <div class="small">rbxassetid://105724153997279</div>
           </td>
-          <td class="text-center">
+          <td>
             <a href="/images/NYPD/16Taurus.jpg">
-              <img src="/images/NYPD/16Taurus.jpg" alt="2016 Ford Taurus" class="img-fluid" style="width: 250px; height: 110px;">
+              <img src="/images/NYPD/16Taurus.jpg" alt="2016 Ford Taurus Police Vehicle" class="img-fluid">
               <br>2016 Ford Taurus
             </a>
             <div class="small">rbxassetid://114970004996116</div>
           </td>
         </tr>
         <tr>
-          <td class="text-center">
+          <td>
             <a href="/images/NYPD/15Fission.jpg">
-              <img src="/images/NYPD/15Fission.jpg" alt="2015 Ford Fission" class="img-fluid" style="width: 250px; height: 110px;">
+              <img src="/images/NYPD/15Fission.jpg" alt="2015 Ford Fission Police Vehicle" class="img-fluid">
               <br>2015 Ford Fission
             </a>
             <div class="small">rbxassetid://74980549527017</div>
           </td>
-          <td class="text-center">
+          <td>
             <a href="/images/NYPD/18F150.jpg">
-              <img src="/images/NYPD/18F150.jpg" alt="2018 Ford F150" class="img-fluid" style="width: 250px; height: 120px;">
+              <img src="/images/NYPD/18F150.jpg" alt="2018 Ford F150 Police Vehicle" class="img-fluid">
               <br>2018 Ford F150
             </a>
             <div class="small">rbxassetid://85213438166220</div>
           </td>
-          <td class="text-center">
+          <td>
             <a href="/images/NYPD/Rambo.jpg">
-              <img src="/images/NYPD/Rambo.jpg" alt="2018 Dodge Durango" class="img-fluid" style="width: 250px; height: 120px;">
+              <img src="/images/NYPD/Rambo.jpg" alt="2018 Dodge Durango Police Vehicle" class="img-fluid">
               <br>2018 Dodge Durango
             </a>
             <div class="small">rbxassetid://92957150254387</div>
           </td>
         </tr>
         <tr>
-          <td class="text-center">
+          <td>
             <a href="/images/NYPD/23Exp.jpg">
-              <img src="/images/NYPD/23Exp.jpg" alt="2023 Ford Expedition" class="img-fluid" style="width: 250px; height: 120px;">
+              <img src="/images/NYPD/23Exp.jpg" alt="2023 Ford Expedition Police Vehicle" class="img-fluid">
               <br>2023 Ford Expedition
             </a>
             <div class="small">rbxassetid://102034390467125</div>
           </td>
-          <td class="text-center">
+          <td>
             <a href="/images/NYPD/Impala.jpg">
-              <img src="/images/NYPD/Impala.jpg" alt="2006 Chevrolet Impala" class="img-fluid" style="width: 250px; height: 120px;">
+              <img src="/images/NYPD/Impala.jpg" alt="2006 Chevrolet Impala Police Vehicle" class="img-fluid">
               <br>2006 Chevrolet Impala
             </a>
             <div class="small">rbxassetid://95596563186421</div>
           </td>
-          <td class="text-center">
+          <td>
             <a href="/images/NYPD/11Vic.jpg">
-              <img src="/images/NYPD/11Vic.jpg" alt="2011 Ford Crown Victoria" class="img-fluid" style="width: 250px; height: 120px;">
+              <img src="/images/NYPD/11Vic.jpg" alt="2011 Ford Crown Victoria Police Vehicle" class="img-fluid">
               <br>2011 Ford Crown Victoria
             </a>
             <div class="small">rbxassetid://86583379847852</div>
           </td>
-        <!--Break-->
-        <tr>
-        <td valign="top" align="center"><br>
-        </td>
-        <td class="text-center" align="center"> <b> New York City Sheriff's Office </b> <br>
-        </td>
-        <td valign="top" align="center"><br>
-        </td>      
         </tr>
-        <!--Break End-->
+        <!-- Break -->
         <tr>
+          <td colspan="3">
+            <div class="text-center font-weight-bold py-3">
+              <b> New York City Sheriff's Office </b>
+            </div>
+          </td>
+        </tr>
+        <!-- Break End -->
+             <tr>
           <td class="text-center">
             <a href="/images/NYSO/16Exp.jpg">
-              <img src="/images/NYSO/16Exp.jpg" alt="2016 Ford Explorer" class="img-fluid" style="width: 250px; height: 130px;">
+              <img src="/images/NYSO/16Exp.jpg" alt="2016 Ford Explorer" class="img-fluid">
               <br>2016 Ford Explorer
             </a>
             <div class="small">rbxassetid://79319340240376</div>
           </td>
           <td class="text-center">
             <a href="/images/NYSO/16SUV.jpg">
-              <img src="/images/NYSO/16SUV.jpg" alt="2016 Chevrolet Tahoe" class="img-fluid" style="width: 250px; height: 130px;">
+              <img src="/images/NYSO/16SUV.jpg" alt="2016 Chevrolet Tahoe" class="img-fluid">
               <br>2016 Chevrolet Tahoe
             </a>
             <div class="small">rbxassetid://131828735227837</div>
           </td>
           <td class="text-center">
             <a href="/images/NYSO/16Chrg.jpg">
-              <img src="/images/NYSO/16Chrg.jpg" alt="2016 Dodge Charger" class="img-fluid" style="width: 260px; height: 130px;">
+              <img src="/images/NYSO/16Chrg.jpg" alt="2016 Dodge Charger" class="img-fluid">
               <br>2016 Dodge Charger
             </a>
             <div class="small">rbxassetid://91754480188023</div>
@@ -165,53 +165,52 @@ permalink: /NYCPack
         <tr>
           <td class="text-center">
             <a href="/images/NYSO/16Taurus.jpg">
-              <img src="/images/NYSO/16Taurus.jpg" alt="2016 Ford Taurus" class="img-fluid" style="width: 250px; height: 120px;">
+              <img src="/images/NYSO/16Taurus.jpg" alt="2016 Ford Taurus" class="img-fluid">
               <br>2016 Ford Taurus
             </a>
             <div class="small">rbxassetid://93473991202003</div>
           </td>
           <td class="text-center">
             <a href="/images/NYSO/17Ram.jpg">
-              <img src="/images/NYSO/17Ram.jpg" alt="2017 Ram 1500" class="img-fluid" style="width: 250px; height: 120px;">
+              <img src="/images/NYSO/17Ram.jpg" alt="2017 Ram 1500" class="img-fluid">
               <br>2017 Ram 1500
             </a>
             <div class="small">rbxassetid://76266828897886</div>
           </td>
           <td class="text-center">
             <a href="/images/NYSO/11Vic.jpg">
-              <img src="/images/NYSO/11Vic.jpg" alt="2011 Ford Crown Victoria" class="img-fluid" style="width: 250px; height: 120px;">
+              <img src="/images/NYSO/11Vic.jpg" alt="2011 Ford Crown Victoria" class="img-fluid">
               <br>2011 Ford Crown Victoria
             </a>
             <div class="small">rbxassetid://132792846566689</div>
           </td>
-        <!--Break-->
+        <!-- Break -->
         <tr>
-        <td valign="top" align="center"><br>
-        </td>
-        <td class="text-center" align="center"> <b> New York State Police </b> <br>
-        </td>
-        <td valign="top" align="center"><br>
-        </td>      
+          <td colspan="3">
+            <div class="text-center font-weight-bold py-3">
+              <b> New York State Patrol </b>
+            </div>
+          </td>
         </tr>
-        <!--Break End-->
-        <tr>
+        <!-- Break End -->
+             <tr>
           <td class="text-center">
             <a href="/images/OSP/20Exp.jpg">
-              <img src="/images/OSP/20Exp.jpg" alt="2020 Ford Explorer" class="img-fluid" style="width: 250px; height: 130px;">
+              <img src="/images/OSP/20Exp.jpg" alt="2020 Ford Explorer" class="img-fluid">
               <br>2020 Ford Explorer
             </a>
             <div class="small">rbxassetid://70380112213169</div>
           </td>
           <td class="text-center">
             <a href="/images/OSP/16Exp.jpg">
-              <img src="/images/OSP/16Exp.jpg" alt="2016 Ford Explorer" class="img-fluid" style="width: 250px; height: 130px;">
+              <img src="/images/OSP/16Exp.jpg" alt="2016 Ford Explorer" class="img-fluid">
               <br>2016 Ford Explorer
             </a>
             <div class="small">rbxassetid://107911888613143</div>
           </td>
           <td class="text-center">
             <a href="/images/OSP/21SUV.jpg">
-              <img src="/images/OSP/21SUV.jpg" alt="2021 Chevrolet Tahoe" class="img-fluid" style="width: 240px; height: 120px;">
+              <img src="/images/OSP/21SUV.jpg" alt="2021 Chevrolet Tahoe" class="img-fluid">
               <br>2021 Chevrolet Tahoe
             </a>
             <div class="small">rbxassetid://118642163537777</div>
@@ -220,21 +219,21 @@ permalink: /NYCPack
         <tr>
           <td class="text-center">
             <a href="/images/OSP/16SUV.jpg">
-              <img src="/images/OSP/16SUV.jpg" alt="2016 Chevrolet Tahoe" class="img-fluid" style="width: 240px; height: 120px;">
+              <img src="/images/OSP/16SUV.jpg" alt="2016 Chevrolet Tahoe" class="img-fluid">
               <br>2016 Chevrolet Tahoe
             </a>
             <div class="small">rbxassetid://137290999390687</div>
           </td>
           <td class="text-center">
             <a href="/images/OSP/16Chrg.jpg">
-              <img src="/images/OSP/16Chrg.jpg" alt="2016 Dodge Charger" class="img-fluid" style="width: 250px; height: 120px;">
+              <img src="/images/OSP/16Chrg.jpg" alt="2016 Dodge Charger" class="img-fluid">
               <br>2016 Dodge Charger
             </a>
             <div class="small">rbxassetid://105724153997279</div>
           </td>
           <td class="text-center">
             <a href="/images/OSP/14Chrg.jpg">
-              <img src="/images/OSP/14Chrg.jpg" alt="2016 Dodge Charger" class="img-fluid" style="width: 240px; height: 120px;">
+              <img src="/images/OSP/14Chrg.jpg" alt="2016 Dodge Charger" class="img-fluid">
               <br>2014 Dodge Charger
             </a>
             <div class="small">rbxassetid://131479668101437</div>
@@ -243,36 +242,25 @@ permalink: /NYCPack
         <tr>
           <td class="text-center">
             <a href="/images/OSP/16Taurus.jpg">
-              <img src="/images/OSP/16Taurus.jpg" alt="2016 Ford Taurus" class="img-fluid" style="width: 240px; height: 120px;">
+              <img src="/images/OSP/16Taurus.jpg" alt="2016 Ford Taurus" class="img-fluid">
               <br>2016 Ford Taurus
             </a>
             <div class="small">rbxassetid://109950649064383</div>
           </td>
           <td class="text-center">
             <a href="/images/OSP/18F150.jpg">
-              <img src="/images/OSP/18F150.jpg" alt="2018 Ford F150" class="img-fluid" style="width: 250px; height: 120px;">
+              <img src="/images/OSP/18F150.jpg" alt="2018 Ford F150" class="img-fluid">
               <br>2018 Ford F150
             </a>
             <div class="small">rbxassetid://86025567368331</div>
           </td>
           <td class="text-center">
             <a href="/images/OSP/11Vic.jpg">
-              <img src="/images/OSP/11Vic.jpg" alt="2011 Ford Crown Victoria" class="img-fluid" style="width: 250px; height: 120px;">
+              <img src="/images/OSP/11Vic.jpg" alt="2011 Ford Crown Victoria" class="img-fluid"
               <br>2011 Ford Crown Victoria
             </a>
             <div class="small">rbxassetid://121340955664150</div>
           </td>
-        <!--Break-->
-        <tr>
-        <td valign="top" align="center"><br>
-        </td>
-        <td valign="top" align="center"><br>
-        </td>
-        <td valign="top" align="center"><br>
-        </td>      
-        </tr>
-        <!--Break End-->
-        </tr>
       </tbody>
     </table>
   </div>
