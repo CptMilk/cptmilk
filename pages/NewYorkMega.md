@@ -24,7 +24,7 @@ permalink: /NYCPack
 <body>
   <div class="container text-center">
     <hr class="my-4">
-    <h2 class="text-primary">New York City Whole Server Pack</h2>
+    <h2 class="text-center font-weight-bold py-3">New York City Liveries </h2>
     <hr class="my-4">
       <table style="text-align: left; width: 999px; background-color: rgb(23, 25, 26);" border="1" cellpadding="2" cellspacing="0">
       <tbody>
