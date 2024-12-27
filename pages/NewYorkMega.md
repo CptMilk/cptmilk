@@ -20,11 +20,41 @@ permalink: /NYCPack
   <link rel="stylesheet" href="/assets/css/style.css">
 
   <script src="/assets/js/theme.js" defer></script>
+  <style>
+    .donation-bar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: #ffcc00;
+      color: #000;
+      z-index: 9999;
+      padding: 10px 0;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .donation-bar a {
+      text-decoration: none;
+      color: #000;
+      font-weight: bold;
+    }
+
+    body {
+      padding-top: 50px;
+    }
+  </style>
 </head>
 <body>
+  
+  <div class="donation-bar text-center">
+    <p class="mb-0">
+      Support my work! <a href="/donate" class="btn btn-light btn-sm">Donate Now</a>
+    </p>
+  </div>
+  
   <div class="container text-center">
     <hr class="my-4">
-    <h2 class="text-center font-weight-bold py-3">New York City Liveries </h2>
+    <h2 class="text-center font-weight-bold">New York City Liveries</h2>
     <hr class="my-4">
       <table style="text-align: left; width: 999px; background-color: rgb(23, 25, 26);" border="1" cellpadding="2" cellspacing="0">
       <tbody>
