@@ -28,7 +28,7 @@ permalink: /NYCPack
     width: 100%;
     color: #000;
     z-index: 9999;
-    padding: 5px 0;
+    padding: 15px 0;
     font-size: 1.2rem;
     font-weight: bold;
     background: linear-gradient(-90deg, #ffcc00, #ff9900);
@@ -45,8 +45,8 @@ permalink: /NYCPack
   }
   
   .donation-reason {
-    font-size: 0.9rem;
-    color: rgba(0, 0, 0, 0.8);
+    font-size: 0.6rem;
+    color: rgba(0, 0, 0, 0.5);
     margin-top: 5px;
   }
   
