@@ -20,7 +20,7 @@ weight: 5
 
   <script src="/assets/js/theme.js" defer></script>
   
-   <style>
+  <style>
     body {
       display: flex;
       justify-content: center;
@@ -52,21 +52,24 @@ weight: 5
       background-color: #d94444;
     }
     .kofi-button {
-      margin: 10px;
+      background-color: #00b9fe;
+      color: white;
+      border: none;
+    }
+    .kofi-button:hover {
+      background-color: #008fc1;
     }
   </style>
 </head>
 <body>
   <div class="donate-container">
-    <h1>Support Our Work</h1>
+    <h1>Support My Work!</h1>
     <a href="https://www.roblox.com/communities/5303423/The-Finest#!/store" target="_blank" class="btn roblox-button">
-      Donate via Roblox Store
+      Donate via Roblox
     </a>
-    <div class="kofi-button">
-      <a href="https://ko-fi.com/cptmilk" target="_blank">
-        <img src="https://storage.ko-fi.com/cdn/cup-border.png" alt="Buy Me a Coffee" style="height: 50px;">
-      </a>
-    </div>
+    <a href="https://ko-fi.com/cptmilk" target="_blank" class="btn kofi-button">
+      Donate Cash Money
+    </a>
   </div>
 </body>
 </html>
