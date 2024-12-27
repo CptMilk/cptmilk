@@ -39,21 +39,21 @@ permalink: /NYCPack
         </tr>
         <!-- Break End -->
         <tr>
-          <td>
+          <td class="text-center">
             <a href="/images/NYPD/20Exp.jpg">
               <img src="/images/NYPD/20Exp.jpg" alt="2020 Ford Explorer Police Vehicle" class="img-fluid">
               <br>2020 Ford Explorer
             </a>
             <div class="small">rbxassetid://103056252180595</div>
           </td>
-          <td>
+          <td class="text-center">
             <a href="/images/NYPD/16Exp.jpg">
               <img src="/images/NYPD/16Exp.jpg" alt="2016 Ford Explorer Police Vehicle" class="img-fluid">
               <br>2016 Ford Explorer
             </a>
             <div class="small">rbxassetid://86363475452729</div>
           </td>
-          <td>
+          <td class="text-center">
             <a href="/images/NYPD/21SUV.jpg">
               <img src="/images/NYPD/21SUV.jpg" alt="2021 Chevrolet Tahoe Police Vehicle" class="img-fluid">
               <br>2021 Chevrolet Tahoe
@@ -62,21 +62,21 @@ permalink: /NYCPack
           </td>
         </tr>
         <tr>
-          <td>
+          <td class="text-center">
             <a href="/images/NYPD/16SUV.jpg">
               <img src="/images/NYPD/16SUV.jpg" alt="2016 Chevrolet Tahoe Police Vehicle" class="img-fluid">
               <br>2016 Chevrolet Tahoe
             </a>
             <div class="small">rbxassetid://136798238669604</div>
           </td>
-          <td>
+          <td class="text-center">
             <a href="/images/NYPD/16Chrg.jpg">
               <img src="/images/NYPD/16Chrg.jpg" alt="2016 Dodge Charger Police Vehicle" class="img-fluid">
               <br>2016 Dodge Charger
             </a>
             <div class="small">rbxassetid://105724153997279</div>
           </td>
-          <td>
+          <td class="text-center">
             <a href="/images/NYPD/16Taurus.jpg">
               <img src="/images/NYPD/16Taurus.jpg" alt="2016 Ford Taurus Police Vehicle" class="img-fluid">
               <br>2016 Ford Taurus
@@ -85,21 +85,21 @@ permalink: /NYCPack
           </td>
         </tr>
         <tr>
-          <td>
+          <td class="text-center">
             <a href="/images/NYPD/15Fission.jpg">
               <img src="/images/NYPD/15Fission.jpg" alt="2015 Ford Fission Police Vehicle" class="img-fluid">
               <br>2015 Ford Fission
             </a>
             <div class="small">rbxassetid://74980549527017</div>
           </td>
-          <td>
+          <td class="text-center">
             <a href="/images/NYPD/18F150.jpg">
               <img src="/images/NYPD/18F150.jpg" alt="2018 Ford F150 Police Vehicle" class="img-fluid">
               <br>2018 Ford F150
             </a>
             <div class="small">rbxassetid://85213438166220</div>
           </td>
-          <td>
+          <td class="text-center">
             <a href="/images/NYPD/Rambo.jpg">
               <img src="/images/NYPD/Rambo.jpg" alt="2018 Dodge Durango Police Vehicle" class="img-fluid">
               <br>2018 Dodge Durango
@@ -108,21 +108,21 @@ permalink: /NYCPack
           </td>
         </tr>
         <tr>
-          <td>
+          <td class="text-center">
             <a href="/images/NYPD/23Exp.jpg">
               <img src="/images/NYPD/23Exp.jpg" alt="2023 Ford Expedition Police Vehicle" class="img-fluid">
               <br>2023 Ford Expedition
             </a>
             <div class="small">rbxassetid://102034390467125</div>
           </td>
-          <td>
+          <td class="text-center">
             <a href="/images/NYPD/Impala.jpg">
               <img src="/images/NYPD/Impala.jpg" alt="2006 Chevrolet Impala Police Vehicle" class="img-fluid">
               <br>2006 Chevrolet Impala
             </a>
             <div class="small">rbxassetid://95596563186421</div>
           </td>
-          <td>
+          <td class="text-center">
             <a href="/images/NYPD/11Vic.jpg">
               <img src="/images/NYPD/11Vic.jpg" alt="2011 Ford Crown Victoria Police Vehicle" class="img-fluid">
               <br>2011 Ford Crown Victoria
