@@ -50,9 +50,9 @@ permalink: /NYCPack
   }
   
   .donation-reason {
-    font-size: 0.6rem;
+    font-size: 0.7rem;
     color: rgba(0, 0, 0, 0.5);
-    margin-top: 5px;
+    margin-top: 9px;
   }
   
   body {
