@@ -4,6 +4,7 @@ title: New York City Full Server Pack
 permalink: /NYCPack
 ---
 
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
