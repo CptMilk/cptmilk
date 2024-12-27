@@ -36,6 +36,11 @@ permalink: /NYCPack
     animation: gradient-slide 3s infinite;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   }
+
+  .donation-bar p {
+    margin: 0;
+    padding: 0;
+  }
   
   .donation-bar a {
     text-decoration: none;
@@ -51,7 +56,7 @@ permalink: /NYCPack
   }
   
   body {
-    padding-top: 70px;
+    padding-top: 60px;
   }
   
   @keyframes gradient-slide {
