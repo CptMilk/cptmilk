@@ -64,7 +64,7 @@ permalink: /NYCPack
 <body>
   <div class="donation-bar text-center">
     <p class="mb-0">
-      <b> Support my work! </b> <a href="/donate" class="btn btn-light btn-sm"><b>-->Donate Here!<--</b></a>
+      <b> Support my work! </b> <a href="/donate" class="btn btn-light btn-sm"><b>---> Donate Here! <---</b></a>
     </p>
   </div>
   <div class="container text-center">
