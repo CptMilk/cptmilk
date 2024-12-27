@@ -20,7 +20,7 @@ weight: 5
 
   <script src="/assets/js/theme.js" defer></script>
   
-  <style>
+   <style>
     body {
       display: flex;
       justify-content: center;
@@ -51,29 +51,22 @@ weight: 5
     .roblox-button:hover {
       background-color: #d94444;
     }
+    .kofi-button {
+      margin: 10px;
+    }
   </style>
 </head>
 <body>
   <div class="donate-container">
     <h1>Support Our Work</h1>
     <a href="https://www.roblox.com/communities/5303423/The-Finest#!/store" target="_blank" class="btn roblox-button">
-      Donate via Roblox
+      Donate via Roblox Store
     </a>
-    <button class="btn btn-primary" id="kofi-button">
-      Donate via Ko-fi
-    </button>
+    <div class="kofi-button">
+      <a href="https://ko-fi.com/cptmilk" target="_blank">
+        <img src="https://storage.ko-fi.com/cdn/cup-border.png" alt="Buy Me a Coffee" style="height: 50px;">
+      </a>
+    </div>
   </div>
-
-  <script src="https://storage.ko-fi.com/cdn/scripts/overlay-widget.js"></script>
-  <script>
-    document.getElementById('kofi-button').addEventListener('click', function () {
-      kofiWidgetOverlay.draw('cptmilk', {
-        'type': 'floating-chat',
-        'floating-chat.donateButton.text': 'Support me',
-        'floating-chat.donateButton.background-color': '#00b9fe',
-        'floating-chat.donateButton.text-color': '#fff'
-      });
-    });
-  </script>
 </body>
 </html>
