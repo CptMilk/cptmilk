@@ -255,7 +255,7 @@ permalink: /NYCPack
           </td>
           <td class="text-center">
             <a href="/images/OSP/11Vic.jpg">
-              <img src="/images/OSP/11Vic.jpg" alt="2011 Ford Crown Victoria" class="img-fluid"
+              <img src="/images/OSP/11Vic.jpg" alt="2011 Ford Crown Victoria" class="img-fluid">
               <br>2011 Ford Crown Victoria
             </a>
             <div class="small">rbxassetid://121340955664150</div>
