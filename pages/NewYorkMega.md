@@ -18,7 +18,7 @@ permalink: /NYCPack
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
   <link rel="stylesheet" href="/assets/css/style.css">
-
+  
   <style>
     .donation-bar {
       position: fixed;
@@ -31,13 +31,11 @@ permalink: /NYCPack
       padding: 10px 0;
       box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     }
-    
     .donation-bar a {
       text-decoration: none;
       color: #000;
       font-weight: bold;
     }
-    
     body {
       padding-top: 50px;
     }
@@ -45,13 +43,11 @@ permalink: /NYCPack
   
 </head>
 <body>
-  
   <div class="donation-bar text-center">
     <p class="mb-0">
-      <strong>Support my work! <a href="/donate" class="btn btn-light btn-sm">Donate Now</a></strong>
+      <b> Support our work! </b> <a href="/donate" class="btn btn-light btn-sm"><b>Donate Now</b></a>
     </p>
   </div>
-  
   <div class="container text-center">
     <hr class="my-4">
     <h2 class="text-center font-weight-bold">New York City Liveries</h2>
