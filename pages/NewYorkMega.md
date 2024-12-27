@@ -32,7 +32,7 @@ permalink: /NYCPack
         <tr>
         <td valign="top" align="center"><br>
         </td>
-        <td class="text-center" align="center"> New York City Police Department <br>
+        <td class="text-center" align="center"> <b> New York City Police Department </b> <br>
         </td>
         <td valign="top" align="center"><br>
         </td>      
@@ -133,7 +133,7 @@ permalink: /NYCPack
         <tr>
         <td valign="top" align="center"><br>
         </td>
-        <td class="text-center" align="center"> New York City Sheriff's Office <br>
+        <td class="text-center" align="center"> <b> New York City Sheriff's Office </b> <br>
         </td>
         <td valign="top" align="center"><br>
         </td>      
@@ -188,7 +188,7 @@ permalink: /NYCPack
         <tr>
         <td valign="top" align="center"><br>
         </td>
-        <td class="text-center" align="center"> New York State Police <br>
+        <td class="text-center" align="center"> <b> New York State Police </b> <br>
         </td>
         <td valign="top" align="center"><br>
         </td>      
