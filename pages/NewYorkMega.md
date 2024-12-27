@@ -18,29 +18,48 @@ permalink: /NYCPack
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
   <link rel="stylesheet" href="/assets/css/style.css">
-  
+
+  <script src="/assets/js/theme.js" defer></script>
   <style>
     .donation-bar {
       position: fixed;
       top: 0;
       left: 0;
       width: 100%;
-      background-color: #ffcc00;
       color: #000;
       z-index: 9999;
-      padding: 10px 0;
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      padding: 15px 0;
+      font-size: 1.2rem;
+      font-weight: bold;
+      background: linear-gradient(-90deg, #ffcc00, #ff9900); 
+      background-size: 200% 200%;
+      animation: gradient-slide 3s infinite; 
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
     }
+    
+    @keyframes gradient-slide {
+      0% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+    }
+    
     .donation-bar a {
       text-decoration: none;
       color: #000;
       font-weight: bold;
+      text-transform: uppercase;
     }
+    
     body {
-      padding-top: 50px;
+      padding-top: 70px;
     }
   </style>
-  
 </head>
 <body>
   <div class="donation-bar text-center">
