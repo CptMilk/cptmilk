@@ -28,7 +28,7 @@ permalink: /NYCPack
     width: 100%;
     color: #000;
     z-index: 9999;
-    padding: 15px 0;
+    padding: 5px 0;
     font-size: 1.2rem;
     font-weight: bold;
     background: linear-gradient(-90deg, #ffcc00, #ff9900);
