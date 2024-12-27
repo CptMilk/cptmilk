@@ -21,50 +21,59 @@ permalink: /NYCPack
 
   <script src="/assets/js/theme.js" defer></script>
   <style>
-    .donation-bar {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      color: #000;
-      z-index: 9999;
-      padding: 15px 0;
-      font-size: 1.2rem;
-      font-weight: bold;
-      background: linear-gradient(-90deg, #ffcc00, #ff9900); 
-      background-size: 200% 200%;
-      animation: gradient-slide 3s infinite; 
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+     .donation-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: #000;
+    z-index: 9999;
+    padding: 15px 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background: linear-gradient(-90deg, #ffcc00, #ff9900);
+    background-size: 200% 200%;
+    animation: gradient-slide 3s infinite;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .donation-bar a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .donation-reason {
+    font-size: 0.9rem;
+    color: rgba(0, 0, 0, 0.8);
+    margin-top: 5px;
+  }
+  
+  body {
+    padding-top: 70px;
+  }
+  
+  @keyframes gradient-slide {
+    0% {
+      background-position: 0% 50%;
     }
-    
-    @keyframes gradient-slide {
-      0% {
-        background-position: 0% 50%;
-      }
-      50% {
-        background-position: 100% 50%;
-      }
-      100% {
-        background-position: 0% 50%;
-      }
+    50% {
+      background-position: 100% 50%;
     }
-    
-    .donation-bar a {
-      text-decoration: none;
-      color: #000;
-      font-weight: bold;
-      text-transform: uppercase;
+    100% {
+      background-position: 0% 50%;
     }
-    
-    body {
-      padding-top: 70px;
-    }
+  }
   </style>
 </head>
 <body>
   <div class="donation-bar text-center">
     <p class="mb-0">
-      <b> Support my work! </b> <a href="/donate" class="btn btn-light btn-sm"><b>---> Donate Here! <---</b></a>
+      <strong>Support my work! <a href="/donate" class="btn btn-light btn-sm">---> Donate Here! <---</a></strong>
+    </p>
+    <p class="donation-reason">
+      Your donations help pay for the making of this pack and many more to come!
     </p>
   </div>
   <div class="container text-center">
