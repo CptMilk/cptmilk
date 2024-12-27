@@ -27,7 +27,6 @@ permalink: /NYCPack
     <h2 class="text-primary">New York City Whole Server Pack</h2>
     <hr class="my-4">
       <table style="text-align: left; width: 999px; background-color: rgb(23, 25, 26);" border="1" cellpadding="2" cellspacing="0">
-      <caption>List of vehicles available in the NYC Pack</caption>
       <tbody>
         <!-- Break -->
         <tr>
