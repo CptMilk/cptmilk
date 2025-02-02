@@ -485,6 +485,47 @@ permalink: /NYCPack
         <tr>
           <td colspan="3">
             <div class="text-center font-weight-bold py-3">
+              <b> New York State Department of Transportation </b>
+            </div>
+          </td>
+        </tr>
+        <!-- Break End -->
+        <tr>
+          <td class="text-center">
+            <a href="/images/NYSDOT/F150.jpg">
+              <img src="/images/NYSDOT/F150.jpg" alt="2018 F150" class="img-fluid">
+              <br>2018 F150
+            </a>
+            <div class="small">rbxassetid://71085285084278</div>
+          </td>
+          <td class="text-center">
+            <a href="/images/NYSDOT/F350.jpg">
+              <img src="/images/NYSDOT/F350.jpg" alt="2010 F350 Flatbed" class="img-fluid">
+              <br>2010 F350 Flatbed
+            </a>
+            <div class="small">rbxassetid://120316344794807</div>
+          </td>
+          <td class="text-center">
+            <a href="/images/NYSDOT/F450.jpg">
+              <img src="/images/NYSDOT/F450.jpg" alt="2020 F450 Tow Truck" class="img-fluid">
+              <br>2020 F450 Tow Truck
+            </a>
+            <div class="small">rbxassetid://71211955687068</div>
+          </td>
+        </tr>
+        <tr>
+          <td class="text-center">
+            <a href="/images/NYSDOT/Haulmaster.jpg">
+              <img src="/images/NYSDOT/Haulmaster.jpg" alt="2020 Haulmaster" class="img-fluid">
+              <br>2020 Haulmaster
+            </a>
+            <div class="small">rbxassetid://134872351853195</div>
+          </td>
+        </tr>
+        <!-- Break -->
+        <tr>
+          <td colspan="3">
+            <div class="text-center font-weight-bold py-3">
               <b> New York News </b>
             </div>
           </td>
