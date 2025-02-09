@@ -65,7 +65,7 @@ permalink: /
 
 <script>
   document.addEventListener("DOMContentLoaded", function() {
-    fetch('https://api.countapi.xyz/hit/cptmilk/visits')
+    fetch('https://api.countapi.xyz/hit/cptmilk.xyz/visits')
       .then(response => response.json())
       .then(data => {
         document.getElementById('count').textContent = data.value;
