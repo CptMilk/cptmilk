@@ -44,9 +44,17 @@ permalink: /
   height: auto;
   pointer-events: none;
 }
+
+#visitor-counter {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #666;
+  margin-top: 15px;
+}
 </style>
 
 <h1 class="page-title">Click for a Surprise!</h1>
+<div id="visitor-counter">Visitors: <span id="count">0</span></div>
 
 <div class="overlay"></div>
 
@@ -56,6 +64,15 @@ permalink: /
 </div>
 
 <script>
+  document.addEventListener("DOMContentLoaded", function() {
+    fetch('https://api.countapi.xyz/hit/cptmilk/visits')
+      .then(response => response.json())
+      .then(data => {
+        document.getElementById('count').textContent = data.value;
+      })
+      .catch(error => console.error('Error:', error));
+  });
+
   document.querySelector('.page-title').addEventListener('click', function() {
     var overlay = document.querySelector('.overlay');
     var videoContainer = document.getElementById("videoContainer");
