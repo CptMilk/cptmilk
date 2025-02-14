@@ -93,7 +93,7 @@ permalink: /
     }
 
     // Fetch the visitor count from the API (GET endpoint does not increment the counter)
-    fetch("https://api.cptmilk.xyz/visit?api_key=a901ce7b68a32bdab54c26c2ea8a45f9d5aa48fe")
+    fetch("https://api.cptmilk.xyz/visit?api_key=db212e1cd2d04ec17cc7097d96f0c1e52608b237")
       .then(response => response.json())
       .then(data => {
           document.getElementById("counterDisplay").textContent = "Visitor Count: " + data.visitor_count;
