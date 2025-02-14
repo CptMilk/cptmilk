@@ -55,7 +55,7 @@ permalink: /
 
 <h1 class="page-title">Click for a Surprise!</h1>
 
-<!-- Visitor counter display (integration code from our documentation) -->
+<!-- Visitor counter display -->
 <div id="visitor-counter">Loading visitor count...</div>
 
 <div class="overlay"></div>
@@ -84,21 +84,23 @@ permalink: /
     });
   });
 
-  // When the DOM is fully loaded, fetch and display the visitor counter from the API
+  // When the DOM is fully loaded, send a POST request to increment the visitor counter
   document.addEventListener("DOMContentLoaded", function() {
     // Replace 'YOUR_API_KEY' with your actual API key
     const apiKey = '667d60905e9850a61cd91b84ab325590841e9b5c';
     const apiUrl = 'https://api.cptmilk.xyz/visit?api_key=' + apiKey;
 
-       fetch(apiURL, {
-      method: "POST"
-    })
+    // POST request increments the visitor count
+    fetch(apiUrl, { method: 'POST' })
       .then(response => response.json())
       .then(data => {
-        console.log("New visitor count:", data.visitor_count);
+        document.getElementById('visitor-counter').textContent = 'Visitor Count: ' + data.visitor_count;
       })
-      .catch(error => console.error("Error incrementing count:", error));
-    
+      .catch(error => {
+        console.error('Error incrementing visitor count:', error);
+        document.getElementById('visitor-counter').textContent = 'Error loading visitor count.';
+      });
+
     var attribution = document.getElementById("attribution");
     if (attribution) {
         attribution.style.display = "none";
