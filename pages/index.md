@@ -90,15 +90,14 @@ permalink: /
     const apiKey = '667d60905e9850a61cd91b84ab325590841e9b5c';
     const apiUrl = 'https://api.cptmilk.xyz/visit?api_key=' + apiKey;
 
-    fetch(apiUrl)
+       fetch(apiURL, {
+      method: "POST"
+    })
       .then(response => response.json())
       .then(data => {
-        document.getElementById('visitor-counter').textContent = 'Visitor Count: ' + data.visitor_count;
+        console.log("New visitor count:", data.visitor_count);
       })
-      .catch(error => {
-        console.error('Error fetching visitor count:', error);
-        document.getElementById('visitor-counter').textContent = 'Error loading visitor count.';
-      });
+      .catch(error => console.error("Error incrementing count:", error));
     
     var attribution = document.getElementById("attribution");
     if (attribution) {
