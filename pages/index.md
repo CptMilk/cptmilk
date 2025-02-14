@@ -87,7 +87,7 @@ permalink: /
   // When the DOM is fully loaded, fetch and display the visitor counter from the API
   document.addEventListener("DOMContentLoaded", function() {
     // Replace 'YOUR_API_KEY' with your actual API key
-    const apiKey = 'db212e1cd2d04ec17cc7097d96f0c1e52608b237';
+    const apiKey = '667d60905e9850a61cd91b84ab325590841e9b5c';
     const apiUrl = 'https://api.cptmilk.xyz/visit?api_key=' + apiKey;
 
     fetch(apiUrl)
