@@ -13,7 +13,7 @@ permalink: /
   }
 
   /* Styling for the counter display */
-  #counterDisplay {
+  #visitor-counter {
     text-align: center;
     font-size: 1.2em;
     margin-top: 20px;
@@ -55,8 +55,8 @@ permalink: /
 
 <h1 class="page-title">Click for a Surprise!</h1>
 
-<!-- Visitor counter display -->
-<div id="counterDisplay">Loading counter...</div>
+<!-- Visitor counter display (integration code from our documentation) -->
+<div id="visitor-counter">Loading visitor count...</div>
 
 <div class="overlay"></div>
 
@@ -84,23 +84,20 @@ permalink: /
     });
   });
 
-  // When the DOM is fully loaded, fetch and display the visitor counter
+  // When the DOM is fully loaded, fetch and display the visitor counter from the API
   document.addEventListener("DOMContentLoaded", function() {
-    // Hide attribution element if it exists
-    var attribution = document.getElementById("attribution");
-    if (attribution) {
-      attribution.style.display = "none";
-    }
+    // Replace 'YOUR_API_KEY' with your actual API key
+    const apiKey = 'db212e1cd2d04ec17cc7097d96f0c1e52608b237';
+    const apiUrl = 'https://api.cptmilk.xyz/visit?api_key=' + apiKey;
 
-    // Fetch the visitor count from the API (GET endpoint does not increment the counter)
-    fetch("https://api.cptmilk.xyz/visit?api_key=db212e1cd2d04ec17cc7097d96f0c1e52608b237")
+    fetch(apiUrl)
       .then(response => response.json())
       .then(data => {
-          document.getElementById("counterDisplay").textContent = "Visitor Count: " + data.visitor_count;
+        document.getElementById('visitor-counter').textContent = 'Visitor Count: ' + data.visitor_count;
       })
       .catch(error => {
-          console.error("Error fetching visitor count:", error);
-          document.getElementById("counterDisplay").textContent = "Error loading counter.";
+        console.error('Error fetching visitor count:', error);
+        document.getElementById('visitor-counter').textContent = 'Error loading visitor count.';
       });
 
     // Disable right-click context menu
