@@ -99,10 +99,10 @@ permalink: /
         console.error('Error fetching visitor count:', error);
         document.getElementById('visitor-counter').textContent = 'Error loading visitor count.';
       });
-
-    // Disable right-click context menu
-    document.addEventListener('contextmenu', function(e) {
-      e.preventDefault();
-    });
-  });
+    
+    var attribution = document.getElementById("attribution");
+    if (attribution) {
+        attribution.style.display = "none";
+    }
+});  
 </script>
