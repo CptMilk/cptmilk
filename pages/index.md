@@ -84,7 +84,7 @@ permalink: /
     });
   });
 
-  // When the DOM is fully loaded, fetch and display the counter
+  // When the DOM is fully loaded, fetch and display the visitor counter
   document.addEventListener("DOMContentLoaded", function() {
     // Hide attribution element if it exists
     var attribution = document.getElementById("attribution");
@@ -92,22 +92,20 @@ permalink: /
       attribution.style.display = "none";
     }
 
-    // Fetch the counter directly from your external API
-    fetch('http://node1.say.ovh:25522/counter')
-      .then(function(response) {
-        return response.json();
+    // Fetch the visitor count from the API (GET endpoint does not increment the counter)
+    fetch("https://api.cptmilk.xyz/visit?api_key=a901ce7b68a32bdab54c26c2ea8a45f9d5aa48fe")
+      .then(response => response.json())
+      .then(data => {
+          document.getElementById("counterDisplay").textContent = "Visitor Count: " + data.visitor_count;
       })
-      .then(function(data) {
-        document.getElementById('counterDisplay').innerText = "Visitor count: " + data.count;
-      })
-      .catch(function(error) {
-        console.error('Error fetching counter:', error);
-        document.getElementById('counterDisplay').innerText = "Error loading counter";
+      .catch(error => {
+          console.error("Error fetching visitor count:", error);
+          document.getElementById("counterDisplay").textContent = "Error loading counter.";
       });
-  });
 
-  // Disable right-click context menu
-  document.addEventListener('contextmenu', function(e) {
-    e.preventDefault();
+    // Disable right-click context menu
+    document.addEventListener('contextmenu', function(e) {
+      e.preventDefault();
+    });
   });
 </script>
