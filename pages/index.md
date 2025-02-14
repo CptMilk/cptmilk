@@ -84,20 +84,21 @@ permalink: /
     });
   });
 
-  // When the DOM is fully loaded, send a POST request to increment the visitor counter
   document.addEventListener("DOMContentLoaded", function() {
-    // Replace 'YOUR_API_KEY' with your actual API key
     const apiKey = '667d60905e9850a61cd91b84ab325590841e9b5c';
     const apiUrl = 'https://api.cptmilk.xyz/visit?api_key=' + apiKey;
 
     // POST request increments the visitor count
     fetch(apiUrl, { method: 'POST' })
+      .then(() => {
+        return fetch(apiUrl, { method: 'GET' });
+      })
       .then(response => response.json())
       .then(data => {
         document.getElementById('visitor-counter').textContent = 'Visitor Count: ' + data.visitor_count;
       })
       .catch(error => {
-        console.error('Error incrementing visitor count:', error);
+        console.error('Error fetching visitor count:', error);
         document.getElementById('visitor-counter').textContent = 'Error loading visitor count.';
       });
 
