@@ -85,7 +85,7 @@ permalink: /
   });
 
   document.addEventListener("DOMContentLoaded", function() {
-    const apiKey = '667d60905e9850a61cd91b84ab325590841e9b5c';
+    const apiKey = 'e4d5ef65cc9a287cb9e3dc65bc13508c9975dbee';
     const apiUrl = 'https://api.cptmilk.xyz/visit?api_key=' + apiKey;
 
     // POST request increments the visitor count
