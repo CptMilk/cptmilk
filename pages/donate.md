@@ -56,7 +56,7 @@ weight: 5
 <body>
   <div class="donate-container">
     <h1>Buy my pigeon</h1>
-    <a href="https://www.roblox.com/communities/5303423/The-Finest#!/store](https://www.roblox.com/catalog/81680459683881/Sparkle-Time-Pigeon" target="_blank" class="btn roblox-button">
+    <a href="https://www.roblox.com/catalog/81680459683881/Sparkle-Time-Pigeon" target="_blank" class="btn roblox-button">
       Pigeon Purchase
     </a>
   </div>
