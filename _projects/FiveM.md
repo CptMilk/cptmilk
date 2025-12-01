@@ -1,6 +1,6 @@
 ---
 name: FiveM
-tools: [LIVERIES] [GTAV] 
+tools: [LIVERIES][GTAV] 
 image: /image/head5M.png
 description: Some liveries I made for FiveM servers and LSPDFR.
 ---
