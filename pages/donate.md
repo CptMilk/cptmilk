@@ -1,7 +1,7 @@
 ---
 layout: null
-title: Donate
-permalink: /donate
+title: Pigeon
+permalink: /pigeon
 weight: 5
 ---
 
@@ -10,7 +10,7 @@ weight: 5
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="author" content="rwcar4">
-  <title>Donate</title>
+  <title>Pigeon</title>
   
   <link rel="shortcut icon" href="/image/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
@@ -51,24 +51,13 @@ weight: 5
     .roblox-button:hover {
       background-color: #d94444;
     }
-    .kofi-button {
-      background-color: #00b9fe;
-      color: white;
-      border: none;
-    }
-    .kofi-button:hover {
-      background-color: #008fc1;
-    }
   </style>
 </head>
 <body>
   <div class="donate-container">
-    <h1>Support My Work!</h1>
-    <a href="https://www.roblox.com/communities/5303423/The-Finest#!/store" target="_blank" class="btn roblox-button">
-      Donate via Roblox
-    </a>
-    <a href="https://ko-fi.com/cptmilk" target="_blank" class="btn kofi-button">
-      Donate Cash Money
+    <h1>Buy my pigeon</h1>
+    <a href="https://www.roblox.com/communities/5303423/The-Finest#!/store](https://www.roblox.com/catalog/81680459683881/Sparkle-Time-Pigeon" target="_blank" class="btn roblox-button">
+      Pigeon Purchase
     </a>
   </div>
 </body>
