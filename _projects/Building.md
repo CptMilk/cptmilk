@@ -27,3 +27,5 @@ all my styles are incredibly well optimized.
 
 <img src="/images/Building/C1.png" width="600"/>
 <img src="/images/Building/C2.png" width="600"/>
+
+<script> document.addEventListener("DOMContentLoaded", function() { var attribution = document.getElementById("attribution"); if (attribution) { attribution.style.display = "none"; } }); </script> 
